@@ -8,7 +8,7 @@
   (title_block
     (title "LUNA USB Multitool")
     (date "2023-01-11")
-    (rev "r0.5")
+    (rev "r0.5+")
     (company "Copyright 2019-2023 Great Scott Gadgets")
     (comment 1 "Licensed under the CERN-OHL-P v2")
   )
@@ -10024,7 +10024,7 @@
   (gr_text "2" (at 133.9 104.1) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005feae874)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "r0.5" (at 110.4 98.5) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005fed9a6a)
+  (gr_text "r0.5+" (at 110.4 98.5) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005fed9a6a)
     (effects (font (size 0.6 0.5588) (thickness 0.125)) (justify left))
   )
   (gr_text "11 Jan 2023" (at 122.6 98.5) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005fedac72)
