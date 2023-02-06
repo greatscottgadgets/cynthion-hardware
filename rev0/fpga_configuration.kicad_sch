@@ -2039,6 +2039,7 @@
     )
   )
 
+
   (junction (at 162.56 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 11059213-04ac-4bbe-8663-f0bf70a4c836)
   )
@@ -2952,7 +2953,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c55a8634-f470-4160-a704-aa0f4159c0fc)
   )
-  (hierarchical_label "~{SIDEBAND_RESET}" (shape bidirectional) (at 77.47 80.01 180)
+  (hierarchical_label "SIDEBAND.~{RESET}" (shape bidirectional) (at 77.47 80.01 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ce931a56-d3e2-480e-8710-9347a49df4ac)
   )
