@@ -1168,9 +1168,6 @@
   (junction (at 189.23 88.9) (diameter 0) (color 0 0 0 0)
     (uuid ca6c912b-bbb0-4224-94c0-8c85b0947b7d)
   )
-  (junction (at 151.13 67.31) (diameter 0) (color 0 0 0 0)
-    (uuid d531830c-587a-4c4a-b2ef-72221f50c763)
-  )
   (junction (at 46.99 55.88) (diameter 0) (color 0 0 0 0)
     (uuid d849e458-3314-49de-9106-d4b98059f2a4)
   )
@@ -1815,10 +1812,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b582779e-f153-4242-9996-6932eba40e42)
   )
-  (wire (pts (xy 151.13 88.9) (xy 148.59 88.9))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b758f4fe-a114-4104-825d-2588c19e3d0b)
-  )
   (wire (pts (xy 92.71 55.88) (xy 95.25 55.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b7777376-d80a-4c78-9b39-ff612d64debc)
@@ -1971,10 +1964,6 @@
   (wire (pts (xy 102.87 74.93) (xy 105.41 74.93))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e5ecc695-b81b-483d-99b8-dbffaf85126f)
-  )
-  (wire (pts (xy 151.13 88.9) (xy 151.13 67.31))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e60e1c83-3bcb-4e87-9dae-bd7d94e943c6)
   )
   (wire (pts (xy 73.66 45.72) (xy 77.47 45.72))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2924,10 +2913,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 7fcc372f-4e13-4aed-a010-88b0566a14e0)
     )
-    (pin "TARGET_VBUS_C" input (at 148.59 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d575176b-ad93-4155-8bf0-f48128ab639c)
-    )
     (pin "~{UC_RESET}" input (at 105.41 99.06 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 52d0c22c-7638-438b-9d86-038a13c2971b)
@@ -3244,9 +3229,6 @@
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dba82ec"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005fe88b44"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dafc997"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
@@ -3890,9 +3872,6 @@
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-000060c90ae3"
       (reference "R3") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005fe510bf"
-      (reference "R4") (unit 1) (value "8.06k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005fd39ca8"
       (reference "R5") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -4006,9 +3985,6 @@
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-000060584829"
       (reference "R42") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005fe432be"
-      (reference "R43") (unit 1) (value "8.06k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/00000000-0000-0000-0000-0000604ad11b"
       (reference "R44") (unit 1) (value "18.7K±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
