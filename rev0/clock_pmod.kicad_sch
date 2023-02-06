@@ -2163,7 +2163,7 @@
     (property "Datasheet" "~" (id 3) (at 118.11 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Note" "DNP" (id 4) (at 118.11 142.24 0)
+    (property "DNP" "DNP" (id 4) (at 118.11 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2ebd7030-dd23-400a-bd42-40b00e271543))
