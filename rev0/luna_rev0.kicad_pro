@@ -104,8 +104,8 @@
         "min_copper_edge_clearance": 0.075,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
@@ -153,7 +153,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1054100|647700|660fb1ea-4921-432b-90dd-24054bd2047a|adbf4ab0-6c8a-435c-acce-58a64139d7c6",
+      "pin_to_pin|1054100|723900|9c8b8bb0-67b1-417f-8975-cf03788d05a7|146c437a-9157-4643-984b-e197a61a31b5"
+    ],
     "meta": {
       "version": 0
     },
