@@ -6,7 +6,7 @@
 
   (title_block
     (title "LUNA USB Multitool")
-    (date "2023-02-06")
+    (date "2023-02-07")
     (rev "r0.5+")
     (company "Copyright 2019-2023 Great Scott Gadgets")
     (comment 1 "Licensed under the CERN-OHL-P v2")
@@ -2412,7 +2412,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Top_Bottom") (at 129.54 179.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c61cd0)
-    (property "Reference" "J11" (id 0) (at 130.81 189.23 0))
+    (property "Reference" "J8" (id 0) (at 130.81 189.23 0))
     (property "Value" "PMOD_B" (id 1) (at 130.81 191.77 0))
     (property "Footprint" "luna:PinSocket_2x06_P2.54mm_PMOD" (id 2) (at 129.54 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3583,11 +3583,11 @@
     (path "/00000000-0000-0000-0000-0000615abeb3"
       (reference "J7") (unit 1) (value "PMOD_A") (footprint "luna:PinSocket_2x06_P2.54mm_PMOD")
     )
+    (path "/00000000-0000-0000-0000-000060c61cd0"
+      (reference "J8") (unit 1) (value "PMOD_B") (footprint "luna:PinSocket_2x06_P2.54mm_PMOD")
+    )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-000060114d15"
       (reference "J10") (unit 1) (value "TC_SWD") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060c61cd0"
-      (reference "J11") (unit 1) (value "PMOD_B") (footprint "luna:PinSocket_2x06_P2.54mm_PMOD")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00006025b23b"
       (reference "R1") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
