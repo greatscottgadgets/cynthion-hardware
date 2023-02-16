@@ -2166,7 +2166,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d07d3a95-d2a2-4230-a860-34cf2f364edb)
   )
-  (label "TARGET{ULPI}" (at 139.7 112.395 90)
+  (label "TARGET{ULPI}" (at 139.7 121.285 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ebe5dc5a-42b4-44b2-ac18-afb3701ca519)
   )

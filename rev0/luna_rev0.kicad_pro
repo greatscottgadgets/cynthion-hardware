@@ -459,23 +459,23 @@
     ],
     [
       "00000000-0000-0000-0000-00005dd754d4",
-      "Host Section"
+      "Aux Port"
     ],
     [
       "00000000-0000-0000-0000-00005dddb747",
-      "Target Section"
+      "Target Port"
     ],
     [
       "00000000-0000-0000-0000-00005dcaa6d2",
-      "FPGA Configuration and Dev Features"
+      "Debugger and FPGA Configuration"
     ],
     [
       "00000000-0000-0000-0000-00005dcd9772",
-      "Sideband Section"
+      "Control Port"
     ],
     [
       "00000000-0000-0000-0000-00005def5588",
-      "Right side indicators"
+      "LEDs and Pmod"
     ],
     [
       "00000000-0000-0000-0000-00005da7baf4",
@@ -483,7 +483,7 @@
     ],
     [
       "00000000-0000-0000-0000-00005de77fe3",
-      "RAM Section"
+      "RAM"
     ]
   ],
   "text_variables": {}

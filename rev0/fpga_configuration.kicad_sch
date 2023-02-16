@@ -2758,7 +2758,7 @@
     (uuid ffbebb08-35ff-4eaa-9283-85c702c027b2)
   )
 
-  (text "pull this signal high from the\nFPGA to tristate the uC’s \nUSB connections and activate\nthe sideband PHY\n\nor pull this signal low from\nthe UC to prevent the FPGA\nfrom driving the USB (used in\nrecovery modes)"
+  (text "pull this signal high from the\nFPGA to tristate the uC’s \nUSB connections and activate\nthe Control port PHY\n\nor pull this signal low from\nthe UC to prevent the FPGA\nfrom driving the USB (used in\nrecovery modes)"
     (at 49.53 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 093d4403-93a9-4e27-b941-bddf9da5dc3f)
@@ -2928,7 +2928,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 198381b5-1557-4e96-9b5e-50dee6850056)
   )
-  (hierarchical_label "SIDEBAND_D+" (shape bidirectional) (at 146.05 97.79 0)
+  (hierarchical_label "CONTROL_D+" (shape bidirectional) (at 146.05 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1bc9f53d-da3a-4c94-b628-5236ad25a01b)
   )
@@ -2940,7 +2940,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 88b88cd6-cb80-4454-bed4-22b188d5b389)
   )
-  (hierarchical_label "SIDEBAND_D-" (shape bidirectional) (at 146.05 95.25 0)
+  (hierarchical_label "CONTROL_D-" (shape bidirectional) (at 146.05 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ad273ba6-b713-43bf-adf7-d7cf9fc75ed4)
   )
@@ -2948,7 +2948,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c55a8634-f470-4160-a704-aa0f4159c0fc)
   )
-  (hierarchical_label "SIDEBAND.~{RESET}" (shape bidirectional) (at 77.47 80.01 180)
+  (hierarchical_label "CONTROL.~{RESET}" (shape bidirectional) (at 77.47 80.01 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ce931a56-d3e2-480e-8710-9347a49df4ac)
   )
