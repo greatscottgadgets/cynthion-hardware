@@ -6,7 +6,7 @@
 
   (title_block
     (title "LUNA USB Multitool")
-    (date "2023-02-07")
+    (date "2023-02-16")
     (rev "r0.5+")
     (company "Copyright 2019-2023 Great Scott Gadgets")
     (comment 1 "Licensed under the CERN-OHL-P v2")
@@ -2038,7 +2038,6 @@
       )
     )
   )
-
 
   (junction (at 166.37 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 11059213-04ac-4bbe-8663-f0bf70a4c836)
