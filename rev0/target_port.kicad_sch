@@ -2303,7 +2303,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06868b6e-1a9b-47df-964b-e9cb3f892031)
   )
-  (label "VCONN" (at 119.38 165.1 0)
+  (label "TARGET_VCONN" (at 119.38 165.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07767fe3-f7d1-4170-8dc4-3bc5b64f862b)
   )
