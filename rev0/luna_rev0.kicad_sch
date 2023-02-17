@@ -4248,6 +4248,12 @@
     (path "/00000000-0000-0000-0000-00005dcd9772/90d75b22-5169-46ee-8b92-d31d7ea1649f"
       (reference "R56") (unit 1) (value "820k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-00005dddb747/08cd4616-9609-4556-96d4-51bd1c9e4c59"
+      (reference "R57") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/f8af511d-510e-407a-8d03-9e73f36e88d5"
+      (reference "R58") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-00005def5588/c5ec0fa3-b621-4be8-968e-f76e806d5332"
       (reference "RN1") (unit 1) (value "33") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
