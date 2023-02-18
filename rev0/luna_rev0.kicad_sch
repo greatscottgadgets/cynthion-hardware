@@ -6,7 +6,7 @@
 
   (title_block
     (title "LUNA USB Multitool")
-    (date "2023-02-16")
+    (date "2023-02-17")
     (rev "r0.5+")
     (company "Copyright 2019-2023 Great Scott Gadgets")
     (comment 1 "Licensed under the CERN-OHL-P v2")
@@ -1070,6 +1070,9 @@
     (uuid d15d807d-aaa0-4b0c-9f01-4d7d2d7ce10d)
   )
 
+  (no_connect (at 44.45 156.21) (uuid 9b2d7827-7e9b-483b-aee2-28bf46b929f2))
+  (no_connect (at 44.45 153.67) (uuid f4d44b06-c76c-4ef1-8c0d-b22e6ccf296b))
+
   (bus_entry (at 156.21 179.07) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 026efddc-1bff-48e1-aa94-b334d3b12544)
@@ -1319,10 +1322,6 @@
   (wire (pts (xy 29.21 166.37) (xy 29.21 168.91))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 371bac79-11a7-4105-956a-f2cbe2da0419)
-  )
-  (wire (pts (xy 44.45 153.67) (xy 105.41 153.67))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 37b73d9b-8930-49dd-ab30-926572cbade6)
   )
   (wire (pts (xy 125.73 186.69) (xy 123.19 186.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1646,10 +1645,6 @@
   (wire (pts (xy 69.85 173.99) (xy 86.36 173.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a04ca71e-73b2-48bf-8b75-9bd39286d26f)
-  )
-  (wire (pts (xy 44.45 156.21) (xy 105.41 156.21))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a32ce42f-64da-49f8-9e04-98b7b5d9dedf)
   )
   (bus (pts (xy 156.21 166.37) (xy 156.21 168.91))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2919,14 +2914,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 48b48c6b-a669-4080-bc03-11024f022da1)
     )
-    (pin "CONTROL_SBU2" bidirectional (at 105.41 156.21 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b573489f-9093-497e-a68e-f3145ef90998)
-    )
-    (pin "CONTROL_SBU1" bidirectional (at 105.41 153.67 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e5d2dc44-c3a7-4b53-b435-79ee57f36b16)
-    )
     (pin "CONTROL_MCU_D+" bidirectional (at 105.41 140.97 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e6f3e995-8156-4ae6-8176-c773f03c836e)
@@ -3240,6 +3227,9 @@
     (path "/00000000-0000-0000-0000-00005da7baf4/9cc99849-cde0-43ba-ab73-072e6af8767c"
       (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005dd754d4/0c624e77-c55d-475f-a9a5-9a6f22adc4e5"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/e6018b2d-8edd-4394-ac74-c6499085a309"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
@@ -3276,8 +3266,14 @@
     (path "/00000000-0000-0000-0000-00005df88884/00000000-0000-0000-0000-0000604a6aaa"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005dddb747/6d87dec5-e1e8-425a-b6f6-baa19d9f5342"
+      (reference "#PWR019") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-000061f76864"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/aec4d3d8-8760-4f3b-afe6-ea68274d5e2e"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005db58de3"
       (reference "#PWR023") (unit 1) (value "+3V3") (footprint "")
@@ -3660,9 +3656,6 @@
     (path "/00000000-0000-0000-0000-00005dddb747/b592b45a-e482-490d-8e81-28f6bce29a74"
       (reference "#PWR0155") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005dddb747/23fe8783-0268-4aad-a3de-4e853970048a"
-      (reference "#PWR0156") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005dddb747/a639e364-d78c-41cd-b3ac-4420b0a0d29c"
       (reference "#PWR0157") (unit 1) (value "+3V3") (footprint "")
     )
@@ -3833,6 +3826,18 @@
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/6f9c5225-7e60-4299-867b-379f73751c66"
       (reference "C51") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005dd754d4/579abf3c-ea03-4f96-82c4-b5c2d6c39899"
+      (reference "C52") (unit 1) (value "390pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005dd754d4/63fff18c-254a-42ee-9367-364790e10b1c"
+      (reference "C53") (unit 1) (value "390pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/2fed5440-de69-4bf8-9cfb-5526a73c3c46"
+      (reference "C54") (unit 1) (value "390pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/23d10f33-712c-4456-abb4-0798c244e659"
+      (reference "C55") (unit 1) (value "390pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/138e6465-10a0-4d9c-a5e0-ef08592facc0"
       (reference "C59") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4033,7 +4038,7 @@
       (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00006001dcf6"
-      (reference "R7") (unit 1) (value "5.49k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R7") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005ffed8bb"
       (reference "R8") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4045,7 +4050,7 @@
       (reference "R10") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00006002a83c"
-      (reference "R11") (unit 1) (value "5.49k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R11") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dd22bb5"
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4114,10 +4119,10 @@
       (reference "R33") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-000060996f81"
-      (reference "R34") (unit 1) (value "5.49k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R34") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-000060996f8e"
-      (reference "R35") (unit 1) (value "5.49k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R35") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/117c73bf-10d6-44dc-bd9a-836a82b0e11e"
       (reference "R36") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4142,12 +4147,6 @@
     )
     (path "/775f364f-8943-4e48-a7a1-c8434dc5bc58"
       (reference "R43") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-000060506cae"
-      (reference "R46") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-000060506cb6"
-      (reference "R47") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/024ab0e4-0477-4f98-a5bd-b1644d899ab9"
       (reference "R50") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
