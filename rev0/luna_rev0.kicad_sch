@@ -3278,6 +3278,9 @@
     (path "/00000000-0000-0000-0000-00005dddb747/35bce23b-4ed4-4073-8448-908a18723037"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/d3c31c55-c8af-4d82-8bf9-385093b5dd07"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dbeb38d"
       (reference "#PWR026") (unit 1) (value "+2V5") (footprint "")
     )
@@ -3317,6 +3320,9 @@
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dab225f"
       (reference "#PWR038") (unit 1) (value "GND") (footprint "")
     )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/6d5620e9-8912-4956-8f41-f76ae6a2c100"
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dc0cc5e"
       (reference "#PWR040") (unit 1) (value "+1V1") (footprint "")
     )
@@ -3325,6 +3331,9 @@
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/5aa760ed-2529-418b-9ef1-ab87816bb0fd"
       (reference "#PWR042") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/7730b1c4-53a1-4d23-a262-ffa906b904e2"
+      (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dd0c578"
       (reference "#PWR044") (unit 1) (value "GND") (footprint "")
@@ -3436,6 +3445,9 @@
     )
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005dde2b42"
       (reference "#PWR080") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/4d903cdd-7a56-4367-9668-4d9bd71e71cc"
+      (reference "#PWR081") (unit 1) (value "GND") (footprint "")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/f8154e77-6f78-4cb4-a715-d0f8018d6d2a"
       (reference "#PWR082") (unit 1) (value "GND") (footprint "")
@@ -3919,6 +3931,18 @@
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/c1d8541f-409c-44c1-a2de-b83f432e030a"
       (reference "D22") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/5c6bf828-c783-4de8-8f68-5be84c3319aa"
+      (reference "D23") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/249aee13-6a20-4791-b059-2e26da70a0b4"
+      (reference "D24") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/2acc1c39-f59d-491a-8948-bb09db0aa928"
+      (reference "D25") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/6bb63b7f-8397-47d5-9150-f00fee8a9164"
+      (reference "D26") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
     )
     (path "/c3b33086-5ce5-4936-a6c7-930a54f1b69b"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
