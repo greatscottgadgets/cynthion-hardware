@@ -2775,7 +2775,7 @@
     (uuid ffbebb08-35ff-4eaa-9283-85c702c027b2)
   )
 
-  (text "Microcontroller controls\nthe Control port USB\nswitch that switches\nbetween the FPGA/PHY\nand microcontroller."
+  (text "Microcontroller controls\nthe CONTROL port USB\nswitch that switches\nbetween the FPGA/PHY\nand microcontroller."
     (at 48.26 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 093d4403-93a9-4e27-b941-bddf9da5dc3f)
