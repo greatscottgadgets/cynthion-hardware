@@ -2217,7 +2217,7 @@
   )
 
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Large") (at 264.16 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board no)
     (uuid 00000000-0000-0000-0000-00005fcc45f6)
     (property "Reference" "#LOGO1" (id 0) (at 264.16 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2616,7 +2616,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 248.285 85.725 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0f4f1809-7884-4c35-a52d-9eda978e070f)
     (property "Reference" "H3" (id 0) (at 250.825 83.6203 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2634,7 +2634,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 266.7 85.725 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 1c113cd6-b6c8-4346-9061-43d6c68672ce)
     (property "Reference" "H4" (id 0) (at 269.24 83.6203 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2652,7 +2652,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 266.7 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 564cec62-8044-497b-b9b3-960da2971588)
     (property "Reference" "H2" (id 0) (at 269.24 69.6503 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2768,7 +2768,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 248.285 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid c3b33086-5ce5-4936-a6c7-930a54f1b69b)
     (property "Reference" "H1" (id 0) (at 250.825 69.6503 0)
       (effects (font (size 1.27 1.27)) (justify left))

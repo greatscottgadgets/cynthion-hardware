@@ -2145,7 +2145,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 118.11 142.24 270) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000604a6ab4)
     (property "Reference" "TP1" (id 0) (at 121.1072 143.7132 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2157,9 +2157,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.11 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "DNP" (id 4) (at 118.11 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2ebd7030-dd23-400a-bd42-40b00e271543))
