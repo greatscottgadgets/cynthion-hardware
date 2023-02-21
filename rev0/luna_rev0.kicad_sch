@@ -4029,10 +4029,10 @@
       (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dc7e70d"
-      (reference "J5") (unit 1) (value "Conn_FPGA_JTAG_10") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
+      (reference "J5") (unit 1) (value "FPGA_JTAG") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db28143"
-      (reference "J6") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
+      (reference "J6") (unit 1) (value "MCU_SWD") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
     )
     (path "/00000000-0000-0000-0000-0000615abeb3"
       (reference "J7") (unit 1) (value "PMOD_A") (footprint "luna:PinSocket_2x06_P2.54mm_PMOD")
