@@ -3951,7 +3951,7 @@
       (reference "D16") (unit 1) (value "18±2%") (footprint "luna:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/4a690c0d-8549-48df-8553-fdad4695ecdb"
-      (reference "D17") (unit 1) (value "4.7±2%") (footprint "luna:DFN1006-2")
+      (reference "D17") (unit 1) (value "5.6±2%") (footprint "luna:DFN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/eabde9f9-a10a-4d23-8e1d-9babff7fe981"
       (reference "D18") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
@@ -3963,7 +3963,7 @@
       (reference "D20") (unit 1) (value "18±2%") (footprint "luna:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/80e07bdc-eefd-4c91-9f28-1e79d13997a4"
-      (reference "D21") (unit 1) (value "4.7±2%") (footprint "luna:DFN1006-2")
+      (reference "D21") (unit 1) (value "5.6±2%") (footprint "luna:DFN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/c1d8541f-409c-44c1-a2de-b83f432e030a"
       (reference "D22") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
@@ -4299,7 +4299,7 @@
       (reference "R72") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/873b7290-5955-40aa-8693-186101d5a58a"
-      (reference "R73") (unit 1) (value "22k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R73") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/50709019-7044-484d-b160-4b96578aa506"
       (reference "R74") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4320,7 +4320,7 @@
       (reference "R79") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/c66fb4ee-143d-4d31-84a2-21de18d47ff4"
-      (reference "R80") (unit 1) (value "22k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R80") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/f12f9178-529b-41cc-85f6-65117745286e"
       (reference "R81") (unit 1) (value "58.3k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4342,6 +4342,12 @@
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/6ce9f6af-1eed-4057-9738-19ea835987bb"
       (reference "R87") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/a29b9fcd-497d-410f-b47c-a17657f49439"
+      (reference "R?") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/d4aba811-badc-47c3-a740-75ce87b737f9"
+      (reference "R?") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/c5ec0fa3-b621-4be8-968e-f76e806d5332"
       (reference "RN1") (unit 1) (value "33") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
