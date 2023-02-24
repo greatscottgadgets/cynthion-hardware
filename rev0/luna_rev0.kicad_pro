@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|107939574|69250001|00000000-0000-0000-0000-00005ff50a4b|97020680-52fd-41ee-a656-0dc60c3ba581",
+        "courtyards_overlap|157939574|69250001|00000000-0000-0000-0000-00005ff4fe57|ebc18994-eb08-4733-b42c-324e62b55257"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -106,7 +109,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.08889999999999999,
         "min_copper_edge_clearance": 0.075,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
@@ -114,13 +117,14 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.2032,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.4572,
+        "min_track_width": 0.08889999999999999,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
+        0.0889,
         0.127,
         0.1524,
         0.2032,
@@ -134,15 +138,15 @@
         },
         {
           "diameter": 0.4572,
-          "drill": 0.23
+          "drill": 0.2032
         },
         {
           "diameter": 0.508,
           "drill": 0.254
         },
         {
-          "diameter": 0.7112,
-          "drill": 0.4064
+          "diameter": 0.762,
+          "drill": 0.381
         },
         {
           "diameter": 1.016,
@@ -375,10 +379,10 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.254,
+        "clearance": 0.0889,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
+        "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.1016,

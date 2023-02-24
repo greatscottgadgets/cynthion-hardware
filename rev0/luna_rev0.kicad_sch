@@ -4121,13 +4121,13 @@
     (path "/490fda6e-4eae-4b35-a875-405b51914829/5d874965-d323-4a84-811e-d62545aac9c7"
       (reference "Q13") (unit 2) (value "2PNP") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/deb4f899-2363-4b54-bc39-7fa7e876cef4"
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/d3afedfa-39d4-42ba-a072-7d24eca3531d"
       (reference "Q14") (unit 1) (value "2PNP") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/20954306-471f-4f79-9c79-8345d5bdad7b"
       (reference "Q14") (unit 2) (value "2PNP") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/d3afedfa-39d4-42ba-a072-7d24eca3531d"
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/deb4f899-2363-4b54-bc39-7fa7e876cef4"
       (reference "Q15") (unit 1) (value "2PNP") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/cdedd448-cfd8-4965-a31b-a804e4d047ca"
@@ -4461,7 +4461,7 @@
       (reference "TP7") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/c7dd91b9-f84e-481b-a5ea-dd6bd3ab554e"
-      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/a7702c99-848c-4571-8215-4eef3839d044"
       (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -4566,22 +4566,22 @@
       (reference "TP43") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/607644b6-6eca-4128-a66e-c854da5e83e7"
-      (reference "TP44") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP44") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d35d5aa6-4572-48e0-9729-b26c216a6bb8"
-      (reference "TP45") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP45") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/14598f24-cc98-411e-8f66-39e45d3c04d2"
-      (reference "TP46") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP46") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/e52dd109-f33f-4e79-be52-3f24b201dc2f"
-      (reference "TP47") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP47") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/57c80e4d-bdc4-47b4-a87e-a72fb11f816c"
-      (reference "TP48") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP48") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/cfdc7254-bd8f-408c-87bd-14646d1092b6"
-      (reference "TP49") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+      (reference "TP49") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/60001628-c0ef-4f6f-8c85-f208551dbe9d"
       (reference "TP50") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -4635,7 +4635,7 @@
       (reference "U15") (unit 1) (value "MIC5504-1.8YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/6ae57af2-6a0c-4470-9ac8-636dffc640e5"
-      (reference "U16") (unit 1) (value "TC7USB42MU") (footprint "")
+      (reference "U16") (unit 1) (value "PI3USB102G") (footprint "luna:Diodes_10-TQFN_ZL")
     )
     (path "/00000000-0000-0000-0000-00005df88884/00000000-0000-0000-0000-0000604a6a9b"
       (reference "Y1") (unit 1) (value "Osc60MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
