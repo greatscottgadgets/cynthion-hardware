@@ -3281,9 +3281,6 @@
     (path "/00000000-0000-0000-0000-00005dddb747/6d87dec5-e1e8-425a-b6f6-baa19d9f5342"
       (reference "#PWR019") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-000061f76864"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005dddb747/aec4d3d8-8760-4f3b-afe6-ea68274d5e2e"
       (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
@@ -3592,9 +3589,6 @@
     )
     (path "/00000000-0000-0000-0000-000060f428b4"
       (reference "#PWR0123") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005ff9bde5"
-      (reference "#PWR0124") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060532fef"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
@@ -4051,9 +4045,6 @@
     )
     (path "/00000000-0000-0000-0000-000060048a13"
       (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
-    )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dc7e70d"
-      (reference "J5") (unit 1) (value "FPGA_JTAG") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db28143"
       (reference "J6") (unit 1) (value "MCU_SWD") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
