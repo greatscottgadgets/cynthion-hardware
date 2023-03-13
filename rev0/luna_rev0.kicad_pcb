@@ -3847,7 +3847,7 @@
     (property "Sheetfile" "fpga_configuration.kicad_sch")
     (property "Sheetname" "Debugger and FPGA Configuration")
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db28143")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files)
     (fp_text reference "J6" (at 0 3.81) (layer "F.SilkS") hide
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
       (tstamp e275e244-6aa5-4438-8b50-5010dbb84f65)
@@ -4086,7 +4086,7 @@
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
     (path "/00000000-0000-0000-0000-00005da7baf4/c847ab4e-a7c8-4846-a1fb-f865ed140187")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "U15" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 412df7f4-2a67-4f3f-b875-8ab949a59095)
@@ -10429,7 +10429,7 @@
     (property "Sheetname" "")
     (property "Substitution" "any equivalent")
     (path "/b2890dde-c203-4fa7-b995-2f01190e1f17")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C71" (at 0 1.16 -270) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 65125c64-845b-4894-940b-aca30976fb32)
@@ -10668,7 +10668,7 @@
     (property "Sheetfile" "power_distribution.kicad_sch")
     (property "Sheetname" "Power Distribution and Monitoring")
     (path "/490fda6e-4eae-4b35-a875-405b51914829/e6c4b3a7-500f-4b69-a740-33e8866297d6")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D20" (at 0 1.2 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ee5c40ab-4760-4db1-89ff-3666a3049018)
@@ -11620,7 +11620,7 @@
     (property "Sheetname" "Power Supplies")
     (property "Substitution" "any equivalent")
     (path "/00000000-0000-0000-0000-00005da7baf4/ec0a9ad0-8a1a-4a77-ac98-dac08de85e78")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "R82" (at 0 1.17) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 29e2cf56-57ae-4d0f-b2c8-042626310a25)
@@ -13236,7 +13236,7 @@
     (property "Sheetfile" "power_distribution.kicad_sch")
     (property "Sheetname" "Power Distribution and Monitoring")
     (path "/490fda6e-4eae-4b35-a875-405b51914829/fe3e14ea-628d-4c9f-b618-84020255cb02")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "D16" (at 0 1.2) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fe5bed6f-0e5c-4376-81d0-4c43b6e763dd)
@@ -13955,7 +13955,7 @@
     (property "Sheetname" "")
     (property "Substitution" "any equivalent")
     (path "/bbb8234b-addf-4fb4-8ec5-cddc89f3761c")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C69" (at 0 1.16 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7e7b4c98-4673-4cba-b515-ce369ad9eea6)
@@ -14048,7 +14048,7 @@
     (property "Sheetname" "Debugger and FPGA Configuration")
     (property "Substitution" "any equivalent")
     (path "/00000000-0000-0000-0000-00005dcaa6d2/dadf7189-393c-4a48-af45-45f0db9f8dec")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "R52" (at 0 1.17) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c689e85f-f75c-4843-a063-a2a91b2c031a)
@@ -14183,7 +14183,7 @@
     (property "Sheetname" "")
     (property "Substitution" "any equivalent")
     (path "/3336e189-fc6c-4fb1-b558-c09be10e3e14")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C68" (at 0 1.16) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7ff07e43-8b6f-4997-b17e-d12fd9871831)
@@ -14552,7 +14552,7 @@
     (property "Sheetname" "Power Supplies")
     (property "Substitution" "any equivalent")
     (path "/00000000-0000-0000-0000-00005da7baf4/f12f9178-529b-41cc-85f6-65117745286e")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "R81" (at 0 1.17) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fe893fdf-4375-47e9-af40-90c7e3d8c648)
@@ -15123,7 +15123,7 @@
     (property "Sheetname" "")
     (property "Substitution" "any equivalent")
     (path "/de83904f-2bea-4be9-86dd-f8c263891c73")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C75" (at 0 1.16 90) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 472c844c-0f6e-4474-b6fb-edf2b15190ff)
@@ -15410,7 +15410,7 @@
     (property "Sheetname" "")
     (property "Substitution" "any equivalent")
     (path "/8bd8e677-7567-4bc3-ae5b-ba1f7f385f96")
-    (attr smd)
+    (attr smd exclude_from_pos_files)
     (fp_text reference "C70" (at 0 1.16 -270) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4e714d74-4676-4b7c-97b9-1a60f85f7962)
