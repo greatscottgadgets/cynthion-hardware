@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
+  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -2550,7 +2550,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe4b57f)
     (property "Reference" "J1" (id 0) (at 29.21 53.34 0))
-    (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 29.21 55.88 0))
+    (property "Value" "USB_C" (id 1) (at 29.21 55.88 0))
     (property "Footprint" "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 33.02 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2592,7 +2592,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060048a13)
     (property "Reference" "J4" (id 0) (at 205.74 76.2 0))
-    (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 207.01 78.74 0))
+    (property "Value" "USB_C" (id 1) (at 207.01 78.74 0))
     (property "Footprint" "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 203.2 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2634,7 +2634,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060532fe5)
     (property "Reference" "J2" (id 0) (at 30.48 118.11 0))
-    (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 29.21 120.65 0))
+    (property "Value" "USB_C" (id 1) (at 29.21 120.65 0))
     (property "Footprint" "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 33.02 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4542,7 +4542,7 @@
       (reference "C75") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/103b4910-cd60-4d09-a58e-216eaf3285c3"
-      (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D1") (unit 1) (value "SCHOTTKY") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428aef"
       (reference "D2") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -4563,10 +4563,10 @@
       (reference "D7") (unit 1) (value "PURPLE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/ed3a6938-fdf7-4b4a-8f9b-974263c0a576"
-      (reference "D8") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D8") (unit 1) (value "SCHOTTKY") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-0000604e0bb6"
-      (reference "D9") (unit 1) (value "PMEG4010ESBYL") (footprint "luna:DSN1006-2")
+      (reference "D9") (unit 1) (value "SCHOTTKY") (footprint "luna:DSN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db78dc3"
       (reference "D10") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -4677,16 +4677,16 @@
       (reference "IC1") (unit 8) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005fe4b57f"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J1") (unit 1) (value "USB_C") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-000060532fe5"
-      (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J2") (unit 1) (value "USB_C") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005dd6def2"
       (reference "J3") (unit 1) (value "USB_A") (footprint "luna:USB_A_Kycon_KUSBXHT-SB-AS1N-B30-NF_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060048a13"
-      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J4") (unit 1) (value "USB_C") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/0efb8f4e-7211-4f0e-bc58-1ba80017973b"
       (reference "J5") (unit 1) (value "MEZZANINE") (footprint "luna:Amphenol_10132798-03")
@@ -5250,19 +5250,19 @@
       (reference "TP55") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d4a612a7-1a24-4a8c-8dfe-6da5c46e1350"
-      (reference "U1") (unit 1) (value "PAC195X-1-WLCSP") (footprint "luna:WLCSP-16_2.225x2.170mm_Layout4x4_P0.5mm")
+      (reference "U1") (unit 1) (value "PAC1954") (footprint "luna:WLCSP-16_2.225x2.170mm_Layout4x4_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/a2826531-0e7e-407c-a8fc-747461f42ebd"
-      (reference "U2") (unit 1) (value "FUSB302BMPX") (footprint "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm")
+      (reference "U2") (unit 1) (value "FUSB302B") (footprint "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/8cbc9157-8562-4060-832b-6d692e496652"
-      (reference "U3") (unit 1) (value "AP7361EA-33") (footprint "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm")
+      (reference "U3") (unit 1) (value "3V3REG") (footprint "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005ffe1c03"
-      (reference "U4") (unit 1) (value "TCR2EF115") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U4") (unit 1) (value "1V15REG") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005daea302"
-      (reference "U5") (unit 1) (value "MIC5504-2.5YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U5") (unit 1) (value "2V5REG") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005fad0234"
       (reference "U6") (unit 1) (value "ATSAMD11") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm")
@@ -5283,7 +5283,7 @@
       (reference "U11") (unit 1) (value "USB3343-CP") (footprint "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/5b10cc0a-fd0c-4ca9-bcea-3f1f37516f55"
-      (reference "U12") (unit 1) (value "FUSB302BMPX") (footprint "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm")
+      (reference "U12") (unit 1) (value "FUSB302B") (footprint "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/b1e2255d-a802-4dd5-99e6-7eba259886c5"
       (reference "U13") (unit 1) (value "DPO2036") (footprint "luna:Diodes_UQFN2020-12_Type-B")
@@ -5292,7 +5292,7 @@
       (reference "U14") (unit 1) (value "DPO2036") (footprint "luna:Diodes_UQFN2020-12_Type-B")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/c847ab4e-a7c8-4846-a1fb-f865ed140187"
-      (reference "U15") (unit 1) (value "MIC5504-1.8YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U15") (unit 1) (value "1V8REG") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/6ae57af2-6a0c-4470-9ac8-636dffc640e5"
       (reference "U16") (unit 1) (value "PI3USB102G") (footprint "luna:Diodes_10-TQFN_ZL")

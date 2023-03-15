@@ -524,7 +524,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "aux_port.kicad_sch")
     (property "Sheetname" "AUX Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dd754d4/00000000-0000-0000-0000-00005dedb89c")
     (attr smd)
     (fp_text reference "C49" (at 0 -1.17) (layer "F.SilkS") hide
@@ -824,7 +824,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dae1bf3")
     (attr smd)
     (fp_text reference "C30" (at 0 -1.16) (layer "F.SilkS") hide
@@ -870,7 +870,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dae1bce")
     (attr smd)
     (fp_text reference "C28" (at 0 -1.16 90) (layer "F.SilkS") hide
@@ -916,13 +916,14 @@
     (property "Part Number" "AP7361EA-33FGE-7")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
+    (property "Substitution" "AP7361C-33FGE-7")
     (path "/00000000-0000-0000-0000-00005da7baf4/8cbc9157-8562-4060-832b-6d692e496652")
     (attr smd)
     (fp_text reference "U3" (at 0 -2.55) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 052aa02d-2786-40c8-91a1-d826b124f018)
     )
-    (fp_text value "AP7361EA-33" (at 0 2.55) (layer "F.Fab") hide
+    (fp_text value "3V3REG" (at 0 2.55) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab85b6f9-f349-4430-98cb-8bf5c641bffa)
     )
@@ -1238,7 +1239,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "target_port.kicad_sch")
     (property "Sheetname" "TARGET Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005dedf6b9")
     (attr smd)
     (fp_text reference "C41" (at 0 -1.17) (layer "F.SilkS") hide
@@ -1290,7 +1291,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07852f46-4a99-4be4-a962-bb0b7d7969fc)
     )
-    (fp_text value "D" (at 0 2.1 90) (layer "F.Fab") hide
+    (fp_text value "SCHOTTKY" (at 0 2.1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81e7be84-e105-4069-9051-e5b0f78ff477)
     )
@@ -1337,7 +1338,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005feaa520")
     (attr smd)
     (fp_text reference "C6" (at 0 -1.16 90) (layer "F.SilkS") hide
@@ -1435,7 +1436,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4adec565-8a22-4ca3-a872-200989c128d8)
     )
-    (fp_text value "D" (at 0 2.1 90) (layer "F.Fab") hide
+    (fp_text value "SCHOTTKY" (at 0 2.1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f079bc7-d915-445b-bae8-d1f679843a2d)
     )
@@ -1488,7 +1489,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f3a11a8c-21a0-4c19-9bd1-071c43a1d8c1)
     )
-    (fp_text value "MIC5504-2.5YM5" (at 0 2.9) (layer "F.Fab") hide
+    (fp_text value "2V5REG" (at 0 2.9) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef2c3406-ae16-4962-b017-d3651bcffe1d)
     )
@@ -1536,7 +1537,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005db5ac8d")
     (attr smd)
     (fp_text reference "C29" (at 0 -1.16) (layer "F.SilkS") hide
@@ -1754,7 +1755,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 707ff4f1-1f2a-4147-bd75-759a768c2716)
     )
-    (fp_text value "PAC195X-1-WLCSP" (at 0 1.7 90) (layer "F.Fab") hide
+    (fp_text value "PAC1954" (at 0 1.7 90) (layer "F.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp 9517403d-6587-4d73-8941-f1bd80621a17)
     )
@@ -1830,7 +1831,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 23bfd32f-4d52-477e-9e32-383f54edb951)
     )
-    (fp_text value "TCR2EF115" (at 0 2.9) (layer "F.Fab") hide
+    (fp_text value "1V15REG" (at 0 2.9) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp acbf292c-9c0a-43bb-98a7-4fe5a00a19cd)
     )
@@ -1878,13 +1879,14 @@
     (property "Part Number" "FUSB302BMPX")
     (property "Sheetfile" "aux_port.kicad_sch")
     (property "Sheetname" "AUX Port")
+    (property "Substitution" "FUSB302BVMPX")
     (path "/00000000-0000-0000-0000-00005dd754d4/5b10cc0a-fd0c-4ca9-bcea-3f1f37516f55")
     (attr smd)
     (fp_text reference "U12" (at 0 -2.55 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93ae8a02-3208-4d9a-a653-624766965450)
     )
-    (fp_text value "FUSB302BMPX" (at 0 2.55 90) (layer "F.Fab") hide
+    (fp_text value "FUSB302B" (at 0 2.55 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0a64128-10f0-4c07-a26b-f8c3ee0f62fd)
     )
@@ -3499,7 +3501,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c831686c-f1e7-4782-a389-ce72f83be72d)
     )
-    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 5.1 90) (layer "F.Fab") hide
+    (fp_text value "USB_C" (at 0 5.1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a20d18c-3b4e-4b14-aada-17130c73b7de)
     )
@@ -3585,7 +3587,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41a01688-b9ee-4c30-a0d6-7a73f44e2668)
     )
-    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 5.1 90) (layer "F.Fab") hide
+    (fp_text value "USB_C" (at 0 5.1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42682b16-7818-4801-afab-cbb82f0cd2e0)
     )
@@ -3671,7 +3673,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bb30b65a-4960-4a77-ba57-3b3439c38775)
     )
-    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 5.1 90) (layer "F.Fab") hide
+    (fp_text value "USB_C" (at 0 5.1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cacc643e-bedf-4183-b615-4ceb4c4b135e)
     )
@@ -3910,13 +3912,14 @@
     (property "Part Number" "FUSB302BMPX")
     (property "Sheetfile" "target_port.kicad_sch")
     (property "Sheetname" "TARGET Port")
+    (property "Substitution" "FUSB302BVMPX")
     (path "/00000000-0000-0000-0000-00005dddb747/a2826531-0e7e-407c-a8fc-747461f42ebd")
     (attr smd)
     (fp_text reference "U2" (at 0 -2.55 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a908da89-9d22-4e8a-ade3-45a800f86ccd)
     )
-    (fp_text value "FUSB302BMPX" (at 0 2.55 -270) (layer "F.Fab") hide
+    (fp_text value "FUSB302B" (at 0 2.55 -270) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6dd737b3-5bd5-4ca5-9043-fa6c9cf8c3e3)
     )
@@ -3992,7 +3995,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/138e6465-10a0-4d9c-a5e0-ef08592facc0")
     (attr smd)
     (fp_text reference "C59" (at 0 -1.16 -90) (layer "F.SilkS") hide
@@ -4038,7 +4041,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "aux_port.kicad_sch")
     (property "Sheetname" "AUX Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dd754d4/05ea8a1e-9729-47f1-bb58-05858f687712")
     (attr smd)
     (fp_text reference "C58" (at 0 -1.16) (layer "F.SilkS") hide
@@ -4091,7 +4094,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 412df7f4-2a67-4f3f-b875-8ab949a59095)
     )
-    (fp_text value "MIC5504-1.8YM5" (at 0 2.4) (layer "F.Fab") hide
+    (fp_text value "1V8REG" (at 0 2.4) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5e48546-59f8-463f-b76d-bb8447d577f9)
     )
@@ -4139,7 +4142,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "target_port.kicad_sch")
     (property "Sheetname" "TARGET Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dddb747/443bd204-69eb-4a83-9ea1-fa9aabe581b7")
     (attr smd)
     (fp_text reference "C56" (at 0 -1.16) (layer "F.SilkS") hide
@@ -4498,7 +4501,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/8483f3d1-5979-4c97-a161-2340f4b73085")
     (attr smd)
     (fp_text reference "C60" (at 0 -1.16 -90) (layer "F.SilkS") hide
@@ -5530,7 +5533,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dbd05b0")
     (attr smd)
     (fp_text reference "C22" (at 0 1.16 180) (layer "B.SilkS") hide
@@ -5908,7 +5911,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dba82a9")
     (attr smd)
     (fp_text reference "C16" (at 0 1.17 90) (layer "B.SilkS") hide
@@ -6000,7 +6003,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dba8281")
     (attr smd)
     (fp_text reference "C8" (at 0 1.17 90) (layer "B.SilkS") hide
@@ -6148,7 +6151,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "target_port.kicad_sch")
     (property "Sheetname" "TARGET Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005dde2b48")
     (attr smd)
     (fp_text reference "C43" (at 0 1.16 180) (layer "B.SilkS") hide
@@ -6240,7 +6243,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "fpga_configuration.kicad_sch")
     (property "Sheetname" "Debugger and FPGA Configuration")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dcee41c")
     (attr smd)
     (fp_text reference "C34" (at 0 1.17 90) (layer "B.SilkS") hide
@@ -6286,7 +6289,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "control_port.kicad_sch")
     (property "Sheetname" "CONTROL Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-00005dd280cb")
     (attr smd)
     (fp_text reference "C37" (at 0 1.16) (layer "B.SilkS") hide
@@ -6894,7 +6897,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "target_port.kicad_sch")
     (property "Sheetname" "TARGET Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005dde2b56")
     (attr smd)
     (fp_text reference "C42" (at 0 1.16 90) (layer "B.SilkS") hide
@@ -7078,7 +7081,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "aux_port.kicad_sch")
     (property "Sheetname" "AUX Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dd754d4/00000000-0000-0000-0000-00005dd9aed1")
     (attr smd)
     (fp_text reference "C50" (at 0 1.16 90) (layer "B.SilkS") hide
@@ -7216,7 +7219,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "aux_port.kicad_sch")
     (property "Sheetname" "AUX Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dd754d4/00000000-0000-0000-0000-00005dd9aec3")
     (attr smd)
     (fp_text reference "C48" (at 0 1.16) (layer "B.SilkS") hide
@@ -7262,7 +7265,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "control_port.kicad_sch")
     (property "Sheetname" "CONTROL Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-00005dd2517f")
     (attr smd)
     (fp_text reference "C36" (at 0 1.16 90) (layer "B.SilkS") hide
@@ -7354,7 +7357,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dba82b3")
     (attr smd)
     (fp_text reference "C18" (at 0 1.17) (layer "B.SilkS") hide
@@ -8691,7 +8694,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005db79057")
     (attr smd)
     (fp_text reference "C17" (at 0 1.17 -270) (layer "B.SilkS") hide
@@ -8967,7 +8970,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "power_supplies.kicad_sch")
     (property "Sheetname" "Power Supplies")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005db78863")
     (attr smd)
     (fp_text reference "C13" (at 0 1.17) (layer "B.SilkS") hide
@@ -9895,7 +9898,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
       (tstamp ce17df80-75a3-4be9-b176-1c6bbed5a2f8)
     )
-    (fp_text value "PMEG4010ESBYL" (at 0 -0.9 -180 unlocked) (layer "B.Fab") hide
+    (fp_text value "SCHOTTKY" (at 0 -0.9 -180 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
       (tstamp afa309ed-2f63-423b-a4c9-01d33f8b1f90)
     )
@@ -10575,7 +10578,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "aux_port.kicad_sch")
     (property "Sheetname" "AUX Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dd754d4/7292b878-60b4-4dd3-885e-da2cd3228a64")
     (attr smd)
     (fp_text reference "C74" (at 0 1.16 90) (layer "B.SilkS") hide
@@ -11940,7 +11943,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "ram_section.kicad_sch")
     (property "Sheetname" "RAM")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005de77fe3/408f6bf6-c558-4065-9c34-dba7b86a3a96")
     (attr smd)
     (fp_text reference "C19" (at 0 1.16) (layer "B.SilkS") hide
@@ -12741,7 +12744,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "target_port.kicad_sch")
     (property "Sheetname" "TARGET Port")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005dddb747/5bd62b1c-5f32-4260-a729-33840a5cde57")
     (attr smd)
     (fp_text reference "C72" (at 0 1.16 90) (layer "B.SilkS") hide
@@ -12787,7 +12790,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "ram_section.kicad_sch")
     (property "Sheetname" "RAM")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005de77fe3/2da01652-d99b-4a99-8b9b-50607767fccb")
     (attr smd)
     (fp_text reference "C21" (at 0 1.16 90) (layer "B.SilkS") hide
@@ -13306,7 +13309,7 @@
     (property "Part Number" "CL05A105MQ5NNNC")
     (property "Sheetfile" "ram_section.kicad_sch")
     (property "Sheetname" "RAM")
-    (property "Substitution" "")
+    (property "Substitution" "CL05A105KQ5NNNC, CL05A105KP5NNNC, CL05A105KO5NNNC")
     (path "/00000000-0000-0000-0000-00005de77fe3/60554e98-06b4-432e-8ad1-b6dc57d9d23f")
     (attr smd)
     (fp_text reference "C5" (at 0 1.16) (layer "B.SilkS") hide
