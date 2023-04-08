@@ -3458,7 +3458,7 @@
     (pad "T6" smd circle locked (at -2 6 270) (size 0.41 0.41) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 311 "unconnected-(IC1-PadT6)") (pinfunction "D7/PB4A") (pintype "bidirectional+no_connect") (tstamp 8ad3004b-3e84-4f4d-a232-48855819872f))
     (pad "T7" smd circle locked (at -1.2 6 270) (size 0.41 0.41) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 19 "/Debugger and FPGA Configuration/D1") (pinfunction "D1/PICO/PB11A") (pintype "bidirectional") (tstamp 639242dc-5c94-4c50-9b39-ec407d6d951a))
+      (net 19 "/Debugger and FPGA Configuration/D1") (pinfunction "D1/POCI/PB11A") (pintype "bidirectional") (tstamp 639242dc-5c94-4c50-9b39-ec407d6d951a))
     (pad "T8" smd circle locked (at -0.4 6 270) (size 0.41 0.41) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 18 "/Debugger and FPGA Configuration/D0") (pinfunction "D0/PICO/PB11B") (pintype "bidirectional") (tstamp 52c0fe75-2e12-4db9-a298-1caddf99d1d9))
     (pad "T9" smd circle locked (at 0.4 6 270) (size 0.41 0.41) (layers "F.Cu" "F.Paste" "F.Mask")
