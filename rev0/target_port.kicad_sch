@@ -3512,7 +3512,7 @@
     (property "Part Number" "LFE5U-12F-6BG256C" (id 6) (at -63.5 -50.165 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Substitution" "LFE5U-12F-*BG256*" (id 7) (at 27.94 80.645 0)
+    (property "Substitution" "LFE5U-12F-*BG256*, LFE5U-25F-*BG256*" (id 7) (at 27.94 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid f6633f18-5536-4881-8680-7f2cd870e79a))
