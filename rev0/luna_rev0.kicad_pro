@@ -530,5 +530,8 @@
       "Power Distribution and Monitoring"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DATE": "2023-04-16",
+    "VERSION": "0.6"
+  }
 }
