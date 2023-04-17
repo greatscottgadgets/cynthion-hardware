@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
+  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -4569,7 +4569,7 @@
       (reference "C78") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/103b4910-cd60-4d09-a58e-216eaf3285c3"
-      (reference "D1") (unit 1) (value "SCHOTTKY") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D1") (unit 1) (value "D") (footprint "luna:D_SOD-123FL")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428aef"
       (reference "D2") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -4590,7 +4590,7 @@
       (reference "D7") (unit 1) (value "PURPLE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/ed3a6938-fdf7-4b4a-8f9b-974263c0a576"
-      (reference "D8") (unit 1) (value "SCHOTTKY") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D8") (unit 1) (value "D") (footprint "luna:D_SOD-123FL")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-0000604e0bb6"
       (reference "D9") (unit 1) (value "SCHOTTKY") (footprint "luna:DSN1006-2")
@@ -5156,9 +5156,6 @@
     (path "/490fda6e-4eae-4b35-a875-405b51914829/46316538-7edd-44b7-8470-36d2d2a148cf"
       (reference "TP7") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/c7dd91b9-f84e-481b-a5ea-dd6bd3ab554e"
-      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/00000000-0000-0000-0000-00005dddb747/31697f2f-728f-40ce-880e-8bdcb6d019c8"
       (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -5251,12 +5248,6 @@
     )
     (path "/00000000-0000-0000-0000-00005def5588/8257d358-3ba4-42d8-98ff-dae6632c5231"
       (reference "TP43") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/607644b6-6eca-4128-a66e-c854da5e83e7"
-      (reference "TP44") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/14598f24-cc98-411e-8f66-39e45d3c04d2"
-      (reference "TP46") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-00005def5588/5fd8e51a-3a57-411a-9ee4-728562503268"
       (reference "TP47") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
