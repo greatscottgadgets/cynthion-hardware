@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
+  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -4794,10 +4794,10 @@
       (reference "Q15") (unit 1) (value "2PNP") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/cdedd448-cfd8-4965-a31b-a804e4d047ca"
-      (reference "R1") (unit 1) (value "0.02±1%") (footprint "luna:R_0603_1608Metric_Current_Sense")
+      (reference "R1") (unit 1) (value "0.02±1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d20ddfe8-3604-4624-ad8a-cf8ff15cc90f"
-      (reference "R2") (unit 1) (value "0.02±1%") (footprint "luna:R_0603_1608Metric_Current_Sense")
+      (reference "R2") (unit 1) (value "0.02±1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/bbf711cd-a37a-471f-98e2-61fadffc2018"
       (reference "R3") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4917,7 +4917,7 @@
       (reference "R41") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/f190609e-2ab6-418c-906b-e8cf76404056"
-      (reference "R42") (unit 1) (value "0.02±1%") (footprint "luna:R_0603_1608Metric_Current_Sense")
+      (reference "R42") (unit 1) (value "0.02±1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/775f364f-8943-4e48-a7a1-c8434dc5bc58"
       (reference "R43") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -4968,7 +4968,7 @@
       (reference "R58") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/93464524-861e-4f77-b8cb-e7c158324a8d"
-      (reference "R59") (unit 1) (value "0.02±1%") (footprint "luna:R_0603_1608Metric_Current_Sense")
+      (reference "R59") (unit 1) (value "0.02±1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d94a7b53-1e5d-4b64-aa61-557a942303c7"
       (reference "R60") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
