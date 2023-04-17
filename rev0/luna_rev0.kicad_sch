@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
+  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -5113,6 +5113,9 @@
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/92f6bd54-fd20-4d28-9761-7a8df6501fb4"
       (reference "R107") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005df88884/2a085b5f-d111-4cb2-998c-3daaffda29ed"
+      (reference "R108") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/c5ec0fa3-b621-4be8-968e-f76e806d5332"
       (reference "RN1") (unit 1) (value "33") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
