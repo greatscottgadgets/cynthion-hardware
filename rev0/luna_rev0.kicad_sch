@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
+  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -4731,10 +4731,10 @@
       (reference "J10") (unit 1) (value "TC_SWD") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d685803c-628b-4733-ad4a-1ba6dca0048e"
-      (reference "Q1") (unit 1) (value "PMOS") (footprint "Package_TO_SOT_SMD:SOT-23-3")
+      (reference "Q1") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/fa4d7819-d329-4528-8f48-2f24cef1f9c6"
-      (reference "Q2") (unit 1) (value "PMOS") (footprint "Package_TO_SOT_SMD:SOT-23-3")
+      (reference "Q2") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/10889224-acdf-43eb-a8be-3554c3fd0c9c"
       (reference "Q3") (unit 1) (value "2NPN") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -4743,16 +4743,16 @@
       (reference "Q3") (unit 2) (value "2NPN") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/e91eafdc-da2e-43ef-81d1-183880acf026"
-      (reference "Q4") (unit 1) (value "PMOS") (footprint "Package_TO_SOT_SMD:SOT-23-3")
+      (reference "Q4") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/36e76636-9fc8-4c1a-b468-6ea55d62524d"
-      (reference "Q5") (unit 1) (value "PMOS") (footprint "Package_TO_SOT_SMD:SOT-23-3")
+      (reference "Q5") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/f801e3f4-9e94-4250-9948-27010da7a48e"
-      (reference "Q6") (unit 1) (value "PMOS") (footprint "Package_TO_SOT_SMD:SOT-23-3")
+      (reference "Q6") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/0eab371e-ae03-4df3-a908-023cad97da21"
-      (reference "Q7") (unit 1) (value "PMOS") (footprint "Package_TO_SOT_SMD:SOT-23-3")
+      (reference "Q7") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/b2205d59-727e-464a-901b-370fe06a99a1"
       (reference "Q8") (unit 1) (value "2NPN") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -5216,9 +5216,6 @@
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-0000618f9cb8"
       (reference "TP28") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/c715766e-ee6e-4670-a2ea-e293c6595120"
-      (reference "TP29") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00006192e92b"
       (reference "TP30") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -5251,9 +5248,6 @@
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/833e6b58-f573-4147-a89f-9f4017433de3"
       (reference "TP41") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/fce9f292-4d00-4cd4-8041-5f2d4731c7c7"
-      (reference "TP42") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-00005def5588/8257d358-3ba4-42d8-98ff-dae6632c5231"
       (reference "TP43") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
