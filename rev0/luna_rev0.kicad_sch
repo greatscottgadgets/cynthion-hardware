@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
+  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -4578,22 +4578,22 @@
       (reference "D1") (unit 1) (value "D") (footprint "luna:D_SOD-123FL")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428aef"
-      (reference "D2") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D2") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428b1a"
-      (reference "D3") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D3") (unit 1) (value "ORANGE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428af6"
-      (reference "D4") (unit 1) (value "YELLOW") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D4") (unit 1) (value "YELLOW") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428afd"
-      (reference "D5") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D5") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428b04"
-      (reference "D6") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D6") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428b0b"
-      (reference "D7") (unit 1) (value "PURPLE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D7") (unit 1) (value "PURPLE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/ed3a6938-fdf7-4b4a-8f9b-974263c0a576"
       (reference "D8") (unit 1) (value "D") (footprint "luna:D_SOD-123FL")
@@ -4602,19 +4602,19 @@
       (reference "D9") (unit 1) (value "SCHOTTKY") (footprint "luna:DSN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db78dc3"
-      (reference "D10") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D10") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db7ab4e"
-      (reference "D11") (unit 1) (value "PINK") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D11") (unit 1) (value "PINK") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db7ae70"
-      (reference "D12") (unit 1) (value "WHITE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D12") (unit 1) (value "WHITE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db7b14b"
-      (reference "D13") (unit 1) (value "PINK") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D13") (unit 1) (value "PINK") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db7b4cc"
-      (reference "D14") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D14") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/9f41c787-6283-449d-8d52-4eb0df932dea"
       (reference "D15") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
