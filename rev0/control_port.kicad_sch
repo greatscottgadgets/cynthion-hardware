@@ -2561,7 +2561,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b44b2c1a-ef97-4e64-aaf0-ee468cdbd464)
   )
-  (label "CONTROL{ULPI}" (at 153.67 86.36 90)
+  (label "CONTROL{ULPI}" (at 153.67 149.86 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bad22cb3-8833-4ea0-b4b9-c2251677fe42)
   )
