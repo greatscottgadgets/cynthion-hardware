@@ -4872,7 +4872,7 @@
       (reference "R24") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005e28bd64"
-      (reference "R25") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R25") (unit 1) (value "820k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428ab0"
       (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -5100,7 +5100,7 @@
       (reference "R100") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/b837b6ba-6e14-41b6-9941-d72b48ecdfcb"
-      (reference "R101") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R101") (unit 1) (value "8.06k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/f3e05bae-bef6-4ba3-bafa-628a09157d9f"
       (reference "R102") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -5109,10 +5109,10 @@
       (reference "R103") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/3d30f2be-1c81-4363-aab3-f0c508bee5e6"
-      (reference "R104") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R104") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/d4f8f253-e902-4493-a112-d7df542cabb0"
-      (reference "R105") (unit 1) (value "33k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R105") (unit 1) (value "8.06k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/9e633d2b-3da4-4963-9a2e-17360be8645d"
       (reference "R106") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
