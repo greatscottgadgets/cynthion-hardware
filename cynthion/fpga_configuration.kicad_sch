@@ -2784,7 +2784,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e017394d-48a5-47e3-84cc-98518ec322b0)
   )
-  (polyline (pts (xy 144.78 167.64) (xy 144.78 178.435))
+  (polyline (pts (xy 144.78 167.64) (xy 144.78 180.975))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e025a9cc-da63-43c3-9c7c-49b5d8130934)
   )
