@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2032
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -404,26 +404,18 @@
         "microvia_drill": 0.1016,
         "name": "VBUS sense",
         "nets": [
-          "/Power Distribution and Monitoring/ADDRSEL",
           "/Power Distribution and Monitoring/AUX_VBUS",
           "/Power Distribution and Monitoring/CONTROL_VBUS",
           "/Power Distribution and Monitoring/TARGET_A_VBUS",
           "/Power Distribution and Monitoring/TARGET_C_VBUS",
-          "AUX_SENSE+",
-          "AUX_SENSE-",
           "AUX_VBUS_IN",
-          "CONTROL_SENSE+",
-          "CONTROL_SENSE-",
           "CONTROL_VBUS_IN",
+          "GND",
           "MON.GPIO",
           "MON.SDA",
           "MON.SLOW",
           "MON.~{PWRDN}",
-          "TARGET_A_SENSE+",
-          "TARGET_A_SENSE-",
           "TARGET_A_VBUS_IN",
-          "TARGET_C_SENSE+",
-          "TARGET_C_SENSE-",
           "TARGET_C_VBUS_IN"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -531,7 +523,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-04-16",
-    "VERSION": "0.6"
+    "DATE": "2023-05-01",
+    "VERSION": "0.7"
   }
 }
