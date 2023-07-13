@@ -37,7 +37,7 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.2032,
+        "silk_line_width": 0.25,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -45,11 +45,20 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.2032
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "courtyards_overlap|107939574|69250001|00000000-0000-0000-0000-00005ff50a4b|97020680-52fd-41ee-a656-0dc60c3ba581",
+        "courtyards_overlap|157939574|69250001|00000000-0000-0000-0000-00005ff4fe57|ebc18994-eb08-4733-b42c-324e62b55257"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -81,7 +90,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -100,26 +109,30 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.08889999999999999,
         "min_copper_edge_clearance": 0.075,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.4572,
+        "min_through_hole_diameter": 0.2032,
+        "min_track_width": 0.08889999999999999,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
+        0.0889,
+        0.1,
         0.127,
         0.1524,
         0.2032,
         0.3048,
-        0.508
+        0.508,
+        1.0,
+        1.27
       ],
       "via_dimensions": [
         {
@@ -128,15 +141,11 @@
         },
         {
           "diameter": 0.4572,
-          "drill": 0.254
+          "drill": 0.2032
         },
         {
-          "diameter": 0.508,
-          "drill": 0.254
-        },
-        {
-          "diameter": 0.7112,
-          "drill": 0.4064
+          "diameter": 0.762,
+          "drill": 0.381
         },
         {
           "diameter": 1.016,
@@ -195,7 +204,7 @@
         0,
         1,
         0,
-        1,
+        0,
         0,
         1,
         2
@@ -273,7 +282,7 @@
       [
         0,
         2,
-        1,
+        0,
         2,
         0,
         0,
@@ -348,7 +357,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -370,9 +379,9 @@
       {
         "bus_width": 12.0,
         "clearance": 0.127,
-        "diff_pair_gap": 0.254,
+        "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
+        "diff_pair_width": 0.127,
         "line_style": 0,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.1016,
@@ -381,7 +390,47 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_drill": 0.2032,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.0889,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
+        "name": "VBUS sense",
+        "nets": [
+          "/Power Distribution and Monitoring/ADDRSEL",
+          "/Power Distribution and Monitoring/AUX_VBUS",
+          "/Power Distribution and Monitoring/CONTROL_VBUS",
+          "/Power Distribution and Monitoring/TARGET_A_VBUS",
+          "/Power Distribution and Monitoring/TARGET_C_VBUS",
+          "AUX_SENSE+",
+          "AUX_SENSE-",
+          "AUX_VBUS_IN",
+          "CONTROL_SENSE+",
+          "CONTROL_SENSE-",
+          "CONTROL_VBUS_IN",
+          "MON.GPIO",
+          "MON.SDA",
+          "MON.SLOW",
+          "MON.~{PWRDN}",
+          "TARGET_A_SENSE+",
+          "TARGET_A_SENSE-",
+          "TARGET_A_VBUS_IN",
+          "TARGET_C_SENSE+",
+          "TARGET_C_SENSE-",
+          "TARGET_C_VBUS_IN"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.0889,
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032,
         "wire_width": 6.0
       }
     ],
@@ -422,7 +471,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -450,23 +499,23 @@
     ],
     [
       "00000000-0000-0000-0000-00005dd754d4",
-      "Host Section"
+      "AUX Port"
     ],
     [
       "00000000-0000-0000-0000-00005dddb747",
-      "Target Section"
+      "TARGET Port"
     ],
     [
       "00000000-0000-0000-0000-00005dcaa6d2",
-      "FPGA Configuration and Dev Features"
+      "Debugger and FPGA Configuration"
     ],
     [
       "00000000-0000-0000-0000-00005dcd9772",
-      "Sideband Section"
+      "CONTROL Port"
     ],
     [
       "00000000-0000-0000-0000-00005def5588",
-      "Right side indicators"
+      "LEDs and Pmod"
     ],
     [
       "00000000-0000-0000-0000-00005da7baf4",
@@ -474,8 +523,15 @@
     ],
     [
       "00000000-0000-0000-0000-00005de77fe3",
-      "RAM Section"
+      "RAM"
+    ],
+    [
+      "490fda6e-4eae-4b35-a875-405b51914829",
+      "Power Distribution and Monitoring"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "DATE": "2023-04-16",
+    "VERSION": "0.6"
+  }
 }
