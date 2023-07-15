@@ -462,7 +462,7 @@
     (property "Value" "PAC195X-1-WLCSP" (id 1) (at 0 -12.7 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "luna:WLCSP-16_2.225x2.170mm_Layout4x4_P0.5mm" (id 2) (at 0 0 0)
+    (property "Footprint" "cynthion:WLCSP-16_2.225x2.170mm_Layout4x4_P0.5mm" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/PAC195X-Family-Data-Sheet-DS20006539.pdf" (id 3) (at 0 0 0)

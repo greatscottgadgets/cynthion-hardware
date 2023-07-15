@@ -55,7 +55,7 @@
   (pad 4 thru_hole circle (at 7 0) (size 1.6 1.6) (drill 0.92) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at -2.9 7.3) (size 1.3 2.5) (drill oval 0.6 1.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 9.9 7.3) (size 1.3 2.5) (drill oval 0.6 1.8) (layers *.Cu *.Mask))
-  (model "$(KIPRJMOD)/../libraries/luna.3dshapes/KUSBXHT-SB-AS1N-B30-NF_A.STEP"
+  (model "$(KIPRJMOD)/../libraries/cynthion.3dshapes/KUSBXHT-SB-AS1N-B30-NF_A.STEP"
     (offset (xyz 3.5 -10.35 3.36))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

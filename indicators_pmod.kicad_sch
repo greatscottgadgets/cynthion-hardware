@@ -2769,7 +2769,7 @@
     (property "Value" "ECP5-BGA256" (id 1) (at 48.768 99.8728 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "luna:lattice_cabga256" (id 2) (at -31.75 -35.56 0)
+    (property "Footprint" "cynthion:lattice_cabga256" (id 2) (at -31.75 -35.56 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at -43.18 -59.69 0)

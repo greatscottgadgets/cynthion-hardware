@@ -49,7 +49,7 @@
   (pad "" np_thru_hole circle (at 2.89 -2.6) (size 0.65 0.65) (drill 0.65) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at 4.32 1.05) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask F.Paste)
     (solder_paste_margin 0.1))
-  (model "$(KIPRJMOD)/../libraries/luna.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+  (model "$(KIPRJMOD)/../libraries/cynthion.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
     (offset (xyz -4.5 -3.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

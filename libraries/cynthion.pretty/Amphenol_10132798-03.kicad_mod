@@ -94,7 +94,7 @@
   (pad "30" smd roundrect (at -3.5 1.8 90) (size 1.6 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eb7f58bc-138c-41cd-9fac-186a544f1520))
   (pad "31" smd roundrect (at 5.2 0 90) (size 1.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2024e15b-f9d9-4910-85bf-dfed109a1e05))
   (pad "31" smd roundrect (at -5.2 0 90) (size 1.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6310a053-90cc-4e9b-9922-380cd2582c2b))
-  (model "$(KIPRJMOD)/../libraries/luna.3dshapes/10132798-031100LF.stp"
+  (model "$(KIPRJMOD)/../libraries/cynthion.3dshapes/10132798-031100LF.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

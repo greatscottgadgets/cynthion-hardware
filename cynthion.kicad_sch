@@ -2414,7 +2414,7 @@
     (property "Value" "USB_A" (id 1) (at 235.6866 67.3354 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "luna:USB_A_Kycon_KUSBXHT-SB-AS1N-B30-NF_Horizontal" (id 2) (at 226.06 66.04 0)
+    (property "Footprint" "cynthion:USB_A_Kycon_KUSBXHT-SB-AS1N-B30-NF_Horizontal" (id 2) (at 226.06 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 226.06 66.04 0)
@@ -2444,7 +2444,7 @@
     (uuid 00000000-0000-0000-0000-00005e0e6b65)
     (property "Reference" "SW1" (id 0) (at 78.74 100.33 0))
     (property "Value" "BTN_PROGRAM" (id 1) (at 85.09 97.79 0))
-    (property "Footprint" "luna:SW_Tactile_SPST_Angled_TC-1109DE-B-F" (id 2) (at 85.09 101.6 0)
+    (property "Footprint" "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F" (id 2) (at 85.09 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.09 101.6 0)
@@ -2488,7 +2488,7 @@
     (uuid 00000000-0000-0000-0000-00005e2b35a7)
     (property "Reference" "SW2" (id 0) (at 78.74 111.125 0))
     (property "Value" "BTN_RESET" (id 1) (at 85.09 108.585 0))
-    (property "Footprint" "luna:SW_Tactile_SPST_Angled_TC-1109DE-B-F" (id 2) (at 85.09 112.395 0)
+    (property "Footprint" "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F" (id 2) (at 85.09 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.09 112.395 0)
@@ -2551,7 +2551,7 @@
     (uuid 00000000-0000-0000-0000-00005fe4b57f)
     (property "Reference" "J1" (id 0) (at 29.21 53.34 0))
     (property "Value" "USB_C" (id 1) (at 29.21 55.88 0))
-    (property "Footprint" "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 33.02 76.2 0)
+    (property "Footprint" "cynthion:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 33.02 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 33.02 76.2 0)
@@ -2593,7 +2593,7 @@
     (uuid 00000000-0000-0000-0000-000060048a13)
     (property "Reference" "J4" (id 0) (at 205.74 76.2 0))
     (property "Value" "USB_C" (id 1) (at 207.01 78.74 0))
-    (property "Footprint" "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 203.2 99.06 0)
+    (property "Footprint" "cynthion:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 203.2 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 203.2 99.06 0)
@@ -2635,7 +2635,7 @@
     (uuid 00000000-0000-0000-0000-000060532fe5)
     (property "Reference" "J2" (id 0) (at 30.48 118.11 0))
     (property "Value" "USB_C" (id 1) (at 29.21 120.65 0))
-    (property "Footprint" "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 33.02 140.97 0)
+    (property "Footprint" "cynthion:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 33.02 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 33.02 140.97 0)
@@ -2677,7 +2677,7 @@
     (uuid 00000000-0000-0000-0000-000060c61cd0)
     (property "Reference" "J8" (id 0) (at 92.71 189.23 0))
     (property "Value" "PMOD_B" (id 1) (at 92.71 191.77 0))
-    (property "Footprint" "luna:PinSocket_2x06_P2.54mm_PMOD" (id 2) (at 93.98 179.07 0)
+    (property "Footprint" "cynthion:PinSocket_2x06_P2.54mm_PMOD" (id 2) (at 93.98 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 179.07 0)
@@ -2785,7 +2785,7 @@
     (uuid 00000000-0000-0000-0000-0000615abeb3)
     (property "Reference" "J7" (id 0) (at 132.08 189.23 0))
     (property "Value" "PMOD_A" (id 1) (at 132.08 191.77 0))
-    (property "Footprint" "luna:PinSocket_2x06_P2.54mm_PMOD" (id 2) (at 133.35 179.07 0)
+    (property "Footprint" "cynthion:PinSocket_2x06_P2.54mm_PMOD" (id 2) (at 133.35 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 133.35 179.07 0)
@@ -3298,7 +3298,7 @@
     (uuid c13e7595-773c-4d5f-8e2e-e407450aaeda)
     (property "Reference" "SW3" (id 0) (at 78.74 121.92 0))
     (property "Value" "BTN_USER" (id 1) (at 85.09 119.38 0))
-    (property "Footprint" "luna:SW_Tactile_SPST_Angled_TC-1109DE-B-F" (id 2) (at 85.09 123.19 0)
+    (property "Footprint" "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F" (id 2) (at 85.09 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.09 123.19 0)
@@ -4578,7 +4578,7 @@
       (reference "C78") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/103b4910-cd60-4d09-a58e-216eaf3285c3"
-      (reference "D1") (unit 1) (value "D") (footprint "luna:D_SOD-123FL")
+      (reference "D1") (unit 1) (value "D") (footprint "cynthion:D_SOD-123FL")
     )
     (path "/00000000-0000-0000-0000-00005def5588/00000000-0000-0000-0000-000061428aef"
       (reference "D2") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -4599,10 +4599,10 @@
       (reference "D7") (unit 1) (value "PURPLE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/ed3a6938-fdf7-4b4a-8f9b-974263c0a576"
-      (reference "D8") (unit 1) (value "D") (footprint "luna:D_SOD-123FL")
+      (reference "D8") (unit 1) (value "D") (footprint "cynthion:D_SOD-123FL")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-0000604e0bb6"
-      (reference "D9") (unit 1) (value "SCHOTTKY") (footprint "luna:DSN1006-2")
+      (reference "D9") (unit 1) (value "SCHOTTKY") (footprint "cynthion:DSN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db78dc3"
       (reference "D10") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -4620,49 +4620,49 @@
       (reference "D14") (unit 1) (value "ICE BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/9f41c787-6283-449d-8d52-4eb0df932dea"
-      (reference "D15") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
+      (reference "D15") (unit 1) (value "24±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/fe3e14ea-628d-4c9f-b618-84020255cb02"
-      (reference "D16") (unit 1) (value "6.2±2%") (footprint "luna:DFN1006-2")
+      (reference "D16") (unit 1) (value "6.2±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/4a690c0d-8549-48df-8553-fdad4695ecdb"
-      (reference "D17") (unit 1) (value "5.6±2%") (footprint "luna:DFN1006-2")
+      (reference "D17") (unit 1) (value "5.6±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/eabde9f9-a10a-4d23-8e1d-9babff7fe981"
-      (reference "D18") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
+      (reference "D18") (unit 1) (value "24±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/cb18d347-ba67-49c7-912b-56574ed82c52"
-      (reference "D19") (unit 1) (value "6.2±2%") (footprint "luna:DFN1006-2")
+      (reference "D19") (unit 1) (value "6.2±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/e6c4b3a7-500f-4b69-a740-33e8866297d6"
-      (reference "D20") (unit 1) (value "6.2±2%") (footprint "luna:DFN1006-2")
+      (reference "D20") (unit 1) (value "6.2±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/80e07bdc-eefd-4c91-9f28-1e79d13997a4"
-      (reference "D21") (unit 1) (value "5.6±2%") (footprint "luna:DFN1006-2")
+      (reference "D21") (unit 1) (value "5.6±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/c1d8541f-409c-44c1-a2de-b83f432e030a"
-      (reference "D22") (unit 1) (value "24±2%") (footprint "luna:DFN1006-2")
+      (reference "D22") (unit 1) (value "24±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/5c6bf828-c783-4de8-8f68-5be84c3319aa"
-      (reference "D23") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+      (reference "D23") (unit 1) (value "TVS") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/249aee13-6a20-4791-b059-2e26da70a0b4"
-      (reference "D24") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+      (reference "D24") (unit 1) (value "TVS") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/2acc1c39-f59d-491a-8948-bb09db0aa928"
-      (reference "D25") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+      (reference "D25") (unit 1) (value "TVS") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/6bb63b7f-8397-47d5-9150-f00fee8a9164"
-      (reference "D26") (unit 1) (value "TVS") (footprint "luna:DFN1006-2")
+      (reference "D26") (unit 1) (value "TVS") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/0588e302-14a5-49ac-8f07-a224586c5478"
-      (reference "D27") (unit 1) (value "6.2±2%") (footprint "luna:DFN1006-2")
+      (reference "D27") (unit 1) (value "6.2±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/474fdb47-d8fb-4b72-92f0-5082db72e823"
-      (reference "D28") (unit 1) (value "6.2±2%") (footprint "luna:DFN1006-2")
+      (reference "D28") (unit 1) (value "6.2±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/cb2c9aff-0f34-4ebb-aea1-aaa7fc8c8e2a"
-      (reference "D29") (unit 1) (value "6.2±2%") (footprint "luna:DFN1006-2")
+      (reference "D29") (unit 1) (value "6.2±2%") (footprint "cynthion:DFN1006-2")
     )
     (path "/4fa35f20-f7b1-40ae-985b-8f844ad5a33e"
       (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
@@ -4689,61 +4689,61 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005da7c210"
-      (reference "IC1") (unit 1) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 1) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005df88884/00000000-0000-0000-0000-00005dff5299"
-      (reference "IC1") (unit 2) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 2) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005def5588/2ea85ee8-5a79-4c06-9cf8-c594011ee2cc"
-      (reference "IC1") (unit 3) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 3) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/9914afff-0597-4b29-9902-c50e0f5aee6c"
-      (reference "IC1") (unit 4) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 4) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/035b32aa-a956-4e92-a091-3c516e569e75"
-      (reference "IC1") (unit 5) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 5) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/018c1df4-c6bd-494a-9fe9-39d6518a8b30"
-      (reference "IC1") (unit 6) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 6) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005de77fe3/28eaeb88-664c-42d3-9d07-8781936112da"
-      (reference "IC1") (unit 7) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 7) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dcabd39"
-      (reference "IC1") (unit 8) (value "ECP5-BGA256") (footprint "luna:lattice_cabga256")
+      (reference "IC1") (unit 8) (value "ECP5-BGA256") (footprint "cynthion:lattice_cabga256")
     )
     (path "/00000000-0000-0000-0000-00005fe4b57f"
-      (reference "J1") (unit 1) (value "USB_C") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J1") (unit 1) (value "USB_C") (footprint "cynthion:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-000060532fe5"
-      (reference "J2") (unit 1) (value "USB_C") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J2") (unit 1) (value "USB_C") (footprint "cynthion:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005dd6def2"
-      (reference "J3") (unit 1) (value "USB_A") (footprint "luna:USB_A_Kycon_KUSBXHT-SB-AS1N-B30-NF_Horizontal")
+      (reference "J3") (unit 1) (value "USB_A") (footprint "cynthion:USB_A_Kycon_KUSBXHT-SB-AS1N-B30-NF_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060048a13"
-      (reference "J4") (unit 1) (value "USB_C") (footprint "luna:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J4") (unit 1) (value "USB_C") (footprint "cynthion:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/0efb8f4e-7211-4f0e-bc58-1ba80017973b"
-      (reference "J5") (unit 1) (value "MEZZANINE") (footprint "luna:Amphenol_10132798-03")
+      (reference "J5") (unit 1) (value "MEZZANINE") (footprint "cynthion:Amphenol_10132798-03")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db28143"
-      (reference "J6") (unit 1) (value "MCU_SWD") (footprint "luna:SWD_CONNECTOR_LARGE_BOX")
+      (reference "J6") (unit 1) (value "MCU_SWD") (footprint "cynthion:SWD_CONNECTOR_LARGE_BOX")
     )
     (path "/00000000-0000-0000-0000-0000615abeb3"
-      (reference "J7") (unit 1) (value "PMOD_A") (footprint "luna:PinSocket_2x06_P2.54mm_PMOD")
+      (reference "J7") (unit 1) (value "PMOD_A") (footprint "cynthion:PinSocket_2x06_P2.54mm_PMOD")
     )
     (path "/00000000-0000-0000-0000-000060c61cd0"
-      (reference "J8") (unit 1) (value "PMOD_B") (footprint "luna:PinSocket_2x06_P2.54mm_PMOD")
+      (reference "J8") (unit 1) (value "PMOD_B") (footprint "cynthion:PinSocket_2x06_P2.54mm_PMOD")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-000060114d15"
       (reference "J10") (unit 1) (value "TC_SWD") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d685803c-628b-4733-ad4a-1ba6dca0048e"
-      (reference "Q1") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
+      (reference "Q1") (unit 1) (value "PMOS") (footprint "cynthion:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/fa4d7819-d329-4528-8f48-2f24cef1f9c6"
-      (reference "Q2") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
+      (reference "Q2") (unit 1) (value "PMOS") (footprint "cynthion:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/10889224-acdf-43eb-a8be-3554c3fd0c9c"
       (reference "Q3") (unit 1) (value "2NPN") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -4752,16 +4752,16 @@
       (reference "Q3") (unit 2) (value "2NPN") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/e91eafdc-da2e-43ef-81d1-183880acf026"
-      (reference "Q4") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
+      (reference "Q4") (unit 1) (value "PMOS") (footprint "cynthion:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/36e76636-9fc8-4c1a-b468-6ea55d62524d"
-      (reference "Q5") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
+      (reference "Q5") (unit 1) (value "PMOS") (footprint "cynthion:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/f801e3f4-9e94-4250-9948-27010da7a48e"
-      (reference "Q6") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
+      (reference "Q6") (unit 1) (value "PMOS") (footprint "cynthion:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/0eab371e-ae03-4df3-a908-023cad97da21"
-      (reference "Q7") (unit 1) (value "PMOS") (footprint "luna:Vishay_PowerPAK_SC70-6L_Single")
+      (reference "Q7") (unit 1) (value "PMOS") (footprint "cynthion:Vishay_PowerPAK_SC70-6L_Single")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/b2205d59-727e-464a-901b-370fe06a99a1"
       (reference "Q8") (unit 1) (value "2NPN") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -5148,13 +5148,13 @@
       (reference "RN4") (unit 1) (value "33") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/00000000-0000-0000-0000-00005e0e6b65"
-      (reference "SW1") (unit 1) (value "BTN_PROGRAM") (footprint "luna:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
+      (reference "SW1") (unit 1) (value "BTN_PROGRAM") (footprint "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
     )
     (path "/00000000-0000-0000-0000-00005e2b35a7"
-      (reference "SW2") (unit 1) (value "BTN_RESET") (footprint "luna:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
+      (reference "SW2") (unit 1) (value "BTN_RESET") (footprint "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
     )
     (path "/c13e7595-773c-4d5f-8e2e-e407450aaeda"
-      (reference "SW3") (unit 1) (value "BTN_USER") (footprint "luna:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
+      (reference "SW3") (unit 1) (value "BTN_USER") (footprint "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
     )
     (path "/00000000-0000-0000-0000-00005df88884/00000000-0000-0000-0000-0000604a6ab4"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -5313,7 +5313,7 @@
       (reference "U9") (unit 1) (value "USB3343-CP") (footprint "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm")
     )
     (path "/00000000-0000-0000-0000-00005de77fe3/00000000-0000-0000-0000-00005dea1fc4"
-      (reference "U10") (unit 1) (value "HyperRAM") (footprint "luna:BGA-24_5x5_6.0x8.0mm")
+      (reference "U10") (unit 1) (value "HyperRAM") (footprint "cynthion:BGA-24_5x5_6.0x8.0mm")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/00000000-0000-0000-0000-00005dd9aea4"
       (reference "U11") (unit 1) (value "USB3343-CP") (footprint "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm")
@@ -5322,16 +5322,16 @@
       (reference "U12") (unit 1) (value "FUSB302B") (footprint "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/b1e2255d-a802-4dd5-99e6-7eba259886c5"
-      (reference "U13") (unit 1) (value "DPO2036") (footprint "luna:Diodes_UQFN2020-12_Type-B")
+      (reference "U13") (unit 1) (value "DPO2036") (footprint "cynthion:Diodes_UQFN2020-12_Type-B")
     )
     (path "/00000000-0000-0000-0000-00005dd754d4/1baa6016-3e2d-486a-91e4-7461d342678b"
-      (reference "U14") (unit 1) (value "DPO2036") (footprint "luna:Diodes_UQFN2020-12_Type-B")
+      (reference "U14") (unit 1) (value "DPO2036") (footprint "cynthion:Diodes_UQFN2020-12_Type-B")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/c847ab4e-a7c8-4846-a1fb-f865ed140187"
       (reference "U15") (unit 1) (value "1V8REG") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/6ae57af2-6a0c-4470-9ac8-636dffc640e5"
-      (reference "U16") (unit 1) (value "PI3USB102G") (footprint "luna:Diodes_10-TQFN_ZL")
+      (reference "U16") (unit 1) (value "PI3USB102G") (footprint "cynthion:Diodes_10-TQFN_ZL")
     )
     (path "/00000000-0000-0000-0000-00005df88884/00000000-0000-0000-0000-0000604a6a9b"
       (reference "Y1") (unit 1) (value "Osc60MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")

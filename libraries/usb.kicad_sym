@@ -6,7 +6,7 @@
     (property "Value" "DPO2036" (id 1) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "luna:Diodes_UQFN2020-12_Type-B" (id 2) (at 0 0 0)
+    (property "Footprint" "cynthion:Diodes_UQFN2020-12_Type-B" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DPO2036.pdf" (id 3) (at 0 0 0)
