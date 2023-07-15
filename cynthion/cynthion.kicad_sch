@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
+  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -4340,6 +4340,9 @@
     (path "/00000000-0000-0000-0000-00005df88884/5839d576-e00c-4487-bf22-ea075cd425c7"
       (reference "#PWR0175") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/490fda6e-4eae-4b35-a875-405b51914829/50962813-4dfc-4287-a65b-a2a1736e491a"
+      (reference "#PWR0176") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005db79e95"
       (reference "C1") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -5270,12 +5273,6 @@
     (path "/490fda6e-4eae-4b35-a875-405b51914829/cfdc7254-bd8f-408c-87bd-14646d1092b6"
       (reference "TP49") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/60001628-c0ef-4f6f-8c85-f208551dbe9d"
-      (reference "TP50") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/490fda6e-4eae-4b35-a875-405b51914829/f232ea84-615e-4993-8962-08576e32477e"
-      (reference "TP51") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
     (path "/00000000-0000-0000-0000-00005def5588/190f2fa6-da93-4c58-aa0d-a42e622352d9"
       (reference "TP52") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -5289,7 +5286,7 @@
       (reference "TP55") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/490fda6e-4eae-4b35-a875-405b51914829/d4a612a7-1a24-4a8c-8dfe-6da5c46e1350"
-      (reference "U1") (unit 1) (value "PAC1954") (footprint "luna:WLCSP-16_2.225x2.170mm_Layout4x4_P0.5mm")
+      (reference "U1") (unit 1) (value "PAC1954") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/a2826531-0e7e-407c-a8fc-747461f42ebd"
       (reference "U2") (unit 1) (value "FUSB302B") (footprint "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm")

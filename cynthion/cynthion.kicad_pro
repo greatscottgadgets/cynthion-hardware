@@ -124,8 +124,6 @@
       },
       "track_widths": [
         0.0,
-        0.0889,
-        0.1,
         0.127,
         0.1524,
         0.2032,
@@ -392,38 +390,6 @@
         "via_diameter": 0.4572,
         "via_drill": 0.2032,
         "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.0889,
-        "diff_pair_gap": 0.127,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.127,
-        "line_style": 0,
-        "microvia_diameter": 0.3048,
-        "microvia_drill": 0.1016,
-        "name": "VBUS sense",
-        "nets": [
-          "/Power Distribution and Monitoring/AUX_VBUS",
-          "/Power Distribution and Monitoring/CONTROL_VBUS",
-          "/Power Distribution and Monitoring/TARGET_A_VBUS",
-          "/Power Distribution and Monitoring/TARGET_C_VBUS",
-          "AUX_VBUS_IN",
-          "CONTROL_VBUS_IN",
-          "GND",
-          "MON.GPIO",
-          "MON.SDA",
-          "MON.SLOW",
-          "MON.~{PWRDN}",
-          "TARGET_A_VBUS_IN",
-          "TARGET_C_VBUS_IN"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.0889,
-        "via_diameter": 0.4572,
-        "via_drill": 0.2032,
-        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -523,7 +489,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-05-17",
-    "VERSION": "1.0.0"
+    "DATE": "2023-05-18",
+    "VERSION": "1.1.0"
   }
 }
