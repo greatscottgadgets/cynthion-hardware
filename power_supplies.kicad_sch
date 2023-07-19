@@ -2873,8 +2873,7 @@
     (uuid ff822334-b557-4145-a147-c170954a0a6c)
   )
 
-  (text "2 bulk decoupling; 6 local for the various 3V3 VCCIO pins\n(microcontroller / flash / etc decoupling is included locally)"
-    (at 26.67 59.69 0)
+  (text "VCCIO decoupling" (at 26.67 59.69 0)
     (effects (font (size 0.9906 0.9906)) (justify left bottom))
     (uuid 1192d4fd-9146-4e2a-ac7c-e3a2f090ae8e)
   )
@@ -2886,8 +2885,7 @@
     (effects (font (size 3.4036 3.4036)) (justify left bottom))
     (uuid 180e59d9-7487-4480-96c5-a534957342b4)
   )
-  (text "2 bulk decoupling; 6 local for each individual pair of VCC/GND pins"
-    (at 26.67 33.02 0)
+  (text "FPGA core decoupling" (at 26.67 33.02 0)
     (effects (font (size 0.9906 0.9906)) (justify left bottom))
     (uuid 19955db9-85f4-4884-ab08-8451d8d325b7)
   )
