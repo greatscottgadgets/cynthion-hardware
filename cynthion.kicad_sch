@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
+  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -5326,6 +5326,33 @@
     )
     (path "/00000000-0000-0000-0000-00005df88884/00000000-0000-0000-0000-000061658d97"
       (reference "RN4") (unit 1) (value "33") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dcd9772/6b255849-1921-44d0-8298-319a754943f1"
+      (reference "RN5") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dcd9772/76495433-8753-4d33-97e8-0257499e9433"
+      (reference "RN6") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dcd9772/8964467a-3659-4704-98ef-bdf376a38444"
+      (reference "RN7") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dd754d4/24269436-8cdb-4eda-a835-1776651882ce"
+      (reference "RN8") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dd754d4/04f046f9-20e7-4891-b982-5d608119535d"
+      (reference "RN9") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dd754d4/f0cf577b-4b0d-4cb5-b571-4877c87d4e16"
+      (reference "RN10") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/924d9be8-5750-42be-acb6-4f3a52008b6d"
+      (reference "RN11") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/98dd527c-e411-4c03-97aa-ff47979d597e"
+      (reference "RN12") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/00000000-0000-0000-0000-00005dddb747/f539f2b9-5a60-46bf-9dea-64da81ec0a0f"
+      (reference "RN13") (unit 1) (value "330") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/00000000-0000-0000-0000-00005e0e6b65"
       (reference "SW1") (unit 1) (value "BTN_PROGRAM") (footprint "cynthion:SW_Tactile_SPST_Angled_TC-1109DE-B-F")
