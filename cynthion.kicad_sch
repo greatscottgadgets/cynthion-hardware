@@ -1142,8 +1142,8 @@
     )
   )
 
-  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
+  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (junction (at 76.2 128.27) (diameter 0) (color 0 0 0 0)
     (uuid 01b76df7-fd1d-4696-a018-c17e903f0523)
   )
@@ -4016,17 +4016,11 @@
     (path "/00000000-0000-0000-0000-00005dcd9772/00000000-0000-0000-0000-00005dd40800"
       (reference "#PWR067") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005dddb747/f25fc0b0-cc27-46e7-9431-5dae76d1c96a"
-      (reference "#PWR068") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005de347ef"
       (reference "#PWR069") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005dde2ae4"
       (reference "#PWR070") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005dddb747/93b08cbe-9a82-400d-93e1-07537164148b"
-      (reference "#PWR071") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dddb747/00000000-0000-0000-0000-00005dedf6cb"
       (reference "#PWR072") (unit 1) (value "GND") (footprint "")
@@ -4574,8 +4568,8 @@
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dbd05b0"
       (reference "C22") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005dddb747/328d3c18-a553-4f0e-bf6d-d56e49c65490"
-      (reference "C23") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-00005da7baf4/482ea9f9-ff6b-4e71-845f-0776a9e57be8"
+      (reference "C23") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005dbd05ec"
       (reference "C24") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -4720,9 +4714,6 @@
     )
     (path "/b2890dde-c203-4fa7-b995-2f01190e1f17"
       (reference "C71") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005dddb747/5bd62b1c-5f32-4260-a729-33840a5cde57"
-      (reference "C72") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/93ccfbf6-7c41-4535-8085-dcfd47f675da"
       (reference "C73") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
