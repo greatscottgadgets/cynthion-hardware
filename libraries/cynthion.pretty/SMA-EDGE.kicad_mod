@@ -51,7 +51,7 @@
   (pad 2 thru_hole circle (at 1.6 2.9) (size 0.762 0.762) (drill 0.3048) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.6 2.9) (size 0.762 0.762) (drill 0.3048) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.6 2.9) (size 0.762 0.762) (drill 0.3048) (layers *.Cu *.Mask))
-  (model "$(KIPRJMOD)/../libraries/cynthion.3dshapes/132322.stp"
+  (model "$(KIPRJMOD)/libraries/cynthion.3dshapes/132322.stp"
     (offset (xyz 0 0 0.38))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
