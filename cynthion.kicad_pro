@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -493,7 +493,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-09-14",
+    "DATE": "2023-09-18",
     "VERSION": "1.2.0+"
   }
 }
