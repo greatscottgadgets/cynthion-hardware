@@ -1210,7 +1210,7 @@
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (property "ki_keywords" "global power" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (id 5) (at 0 0 0)
@@ -1410,7 +1410,6 @@
   )
 
   (bus_alias "HyperRAM" (members "DQ[0..7]" "CK" "~{CK}" "~{CS}" "RWDS" "~{RESET}"))
-
   (junction (at 234.95 119.38) (diameter 0) (color 0 0 0 0)
     (uuid 03bceecc-fc6c-47ae-bd46-06cca85c7e04)
   )
