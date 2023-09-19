@@ -1410,6 +1410,7 @@
   )
 
   (bus_alias "HyperRAM" (members "DQ[0..7]" "CK" "~{CK}" "~{CS}" "RWDS" "~{RESET}"))
+
   (junction (at 234.95 119.38) (diameter 0) (color 0 0 0 0)
     (uuid 03bceecc-fc6c-47ae-bd46-06cca85c7e04)
   )

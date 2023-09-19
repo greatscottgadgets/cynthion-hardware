@@ -2178,6 +2178,7 @@
     )
   )
 
+
   (junction (at 134.62 30.48) (diameter 0) (color 0 0 0 0)
     (uuid 09f1c531-dc2d-4f3e-ad61-1fd516832ae7)
   )
@@ -4530,7 +4531,6 @@
     (property "Manufacturer" "Yageo" (id 7) (at 170.815 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "DNP" (id 8) (at 175.26 160.02 90))
     (pin "1" (uuid 0e0fd487-a0c9-449c-8ad9-8ea21f5592b6))
     (pin "2" (uuid 5194b056-7822-46ba-a76c-1d9937975852))
   )
