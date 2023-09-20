@@ -1093,8 +1093,8 @@
     )
   )
 
-  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
+  (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
   (junction (at 46.99 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 1442b3a0-31cd-47fb-b2ef-6cf8fe1878d7)
   )
@@ -3634,9 +3634,6 @@
     (path "/490fda6e-4eae-4b35-a875-405b51914829/6d5620e9-8912-4956-8f41-f76ae6a2c100"
       (reference "#PWR039") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dc0cc5e"
-      (reference "#PWR040") (unit 1) (value "+1V1") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dceffc7"
       (reference "#PWR041") (unit 1) (value "GND") (footprint "")
     )
@@ -3651,9 +3648,6 @@
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dd07968"
       (reference "#PWR045") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dc1ff9a"
-      (reference "#PWR046") (unit 1) (value "+2V5") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005db8cd6c"
       (reference "#PWR047") (unit 1) (value "+3V3") (footprint "")
@@ -4224,6 +4218,9 @@
     )
     (path "/c563bfe0-0115-47fb-876f-154ac2351f91"
       (reference "#PWR0236") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005dcaa6d2/be3ba0f9-0fde-4749-a014-7b99d32bca0f"
+      (reference "#PWR0237") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005da7baf4/00000000-0000-0000-0000-00005db79e95"
       (reference "C1") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4990,8 +4987,8 @@
     (path "/00000000-0000-0000-0000-00005dcaa6d2/b837b6ba-6e14-41b6-9941-d72b48ecdfcb"
       (reference "R101") (unit 1) (value "8.06k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005dcaa6d2/f3e05bae-bef6-4ba3-bafa-628a09157d9f"
-      (reference "R102") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-00005dcaa6d2/7aac5e95-0949-404f-8c9a-9954ae37bb80"
+      (reference "R102") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/3d30f2be-1c81-4363-aab3-f0c508bee5e6"
       (reference "R104") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
