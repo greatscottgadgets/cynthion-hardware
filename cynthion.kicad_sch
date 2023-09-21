@@ -1093,8 +1093,8 @@
     )
   )
 
-  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (bus_alias "ULPI" (members "DATA[0..7]" "CLK" "DIR" "STP" "NXT" "~{RESET}"))
+  (bus_alias "TYPE_C" (members "SDA" "SCL" "SBU1S" "SBU2S" "~{INT}" "~{FAULT}"))
   (junction (at 46.99 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 1442b3a0-31cd-47fb-b2ef-6cf8fe1878d7)
   )
@@ -4781,13 +4781,13 @@
       (reference "R11") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dd22bb5"
-      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R12") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dd23434"
-      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R13") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/00000000-0000-0000-0000-00005dd23797"
-      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R14") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcd9772/90909a96-d582-4691-a677-d02e10244107"
       (reference "R15") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
