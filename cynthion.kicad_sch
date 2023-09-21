@@ -4904,7 +4904,7 @@
       (reference "R51") (unit 1) (value "18.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/dadf7189-393c-4a48-af45-45f0db9f8dec"
-      (reference "R52") (unit 1) (value "23.7k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R52") (unit 1) (value "26.1k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005dcaa6d2/57d1f2f5-5ee0-43e9-b0ba-a36105cedf19"
       (reference "R53") (unit 1) (value "8.06k±1%") (footprint "Resistor_SMD:R_0402_1005Metric")
