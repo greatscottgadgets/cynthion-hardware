@@ -1946,6 +1946,7 @@
     )
   )
 
+
   (junction (at 102.87 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 04f61490-7ad1-4be5-8988-45a30ac37117)
   )
@@ -3265,12 +3266,9 @@
     (uuid fef7800f-ff79-4177-8ab2-e681c14c5cb2)
   )
 
-  (global_label "~{POWER_GOOD}" (shape input) (at 204.47 41.91 0) (fields_autoplaced)
+  (hierarchical_label "~{POWER_GOOD}" (shape output) (at 204.47 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 069d6c75-e004-44bd-8a94-247cfdb4516a)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 219.4337 41.9894 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
+    (uuid 7b880991-c4e1-470c-ab71-328a31061d68)
   )
 
   (symbol (lib_id "fpgas_and_processors:ECP5-BGA256") (at 212.09 86.36 0) (unit 1)
