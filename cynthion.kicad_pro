@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2032
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -109,22 +109,23 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.08889999999999999,
+        "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.075,
-        "min_hole_clearance": 0.254,
+        "min_hole_clearance": 0.24,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.2032,
-        "min_track_width": 0.08889999999999999,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.125,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_diameter": 0.41,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
         0.127,
+        0.146,
         0.1524,
         0.2032,
         0.3048,
@@ -136,6 +137,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.41,
+          "drill": 0.15
         },
         {
           "diameter": 0.4572,
@@ -379,7 +384,7 @@
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.127,
+        "diff_pair_width": 0.146,
         "line_style": 0,
         "microvia_diameter": 0.3048,
         "microvia_drill": 0.1016,
@@ -489,7 +494,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-07-15",
-    "VERSION": "1.1.1"
+    "DATE": "2023-07-20",
+    "VERSION": "1.2.0"
   }
 }

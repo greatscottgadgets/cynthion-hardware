@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 0)
   (tags "SOD-993 SOD993")
-  (solder_paste_margin -0.05)
+  (solder_paste_margin -0.08)
   (attr smd)
   (fp_text reference "REF**" (at 0 -0.9) (layer "F.SilkS")
     (effects (font (size 0.5 0.5) (thickness 0.1)))
