@@ -13,6 +13,9 @@ _autosave*
 *.zip
 \#auto_saved_files\#
 
+# KiCad lock files
+~*.lck
+
 # KiCad cache files
 # *-cache.lib not ignored, so schematic can be viewed without libraries
 fp-info-cache
