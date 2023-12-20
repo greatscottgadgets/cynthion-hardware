@@ -138,7 +138,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.049999999999999996,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
@@ -614,7 +614,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-12-19",
+    "DATE": "2023-12-20",
     "VERSION": "1.3.1+"
   }
 }
