@@ -1069,13 +1069,13 @@
   )
 
   (symbol (lib_id "Device:R") (at 158.75 149.86 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d7cb87a-d938-4edb-b587-c01e98adf570)
-    (property "Reference" "R45" (at 158.75 149.86 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "R45" (at 156.21 148.59 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "5.1k" (at 156.21 149.86 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "5.1k" (at 156.21 151.13 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 156.972 149.86 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1337,7 +1337,7 @@
     (property "Footprint" "cynthion:USB_A_Kycon_KUSBXHT-SB-AS1N-B30-NF_Horizontal" (at 207.01 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (at 207.01 54.61 0)
+    (property "Datasheet" "~" (at 207.01 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "USB A TYPE RECEPTACLE, SHORT BODY" (at 210.82 53.34 0)
@@ -1608,7 +1608,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747" (page "13"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747" (page "8"))
       )
     )
   )
@@ -1669,7 +1669,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747" (page "14"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747" (page "9"))
       )
     )
   )

@@ -833,7 +833,7 @@
     (property "Footprint" "cynthion:BGA-24_5x5_6.0x8.0mm" (at 121.92 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 137.16 125.73 0)
+    (property "Datasheet" "https://www.winbond.com/resource-files/W956x8MBYA_64Mb_HyperBus_pSRAM_TFBGA24_datasheet_A01-002_20191113.pdf" (at 137.16 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "DRAM 64Mb HyperRAM x8, 166MHz, Ind temp, 3.0V" (at 137.16 102.87 0)

@@ -1293,7 +1293,7 @@
     (property "Reference" "#PWR0150" (at 158.75 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 158.75 99.06 90)
+    (property "Value" "GND" (at 158.75 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 158.75 93.98 0)
@@ -1825,7 +1825,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 208.28 130.81 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid f7b9e475-e3b7-4e0d-aa8a-64ceb6eef076)
     (property "Reference" "#PWR0156" (at 208.28 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1915,7 +1915,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772" (page "12"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772" (page "3"))
       )
     )
   )
