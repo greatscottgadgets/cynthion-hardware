@@ -927,10 +927,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2ac86919-d592-4dfb-b368-bd64cd496f84)
     )
-    (pin "~{TARGET_C_VBUS_EN}" output (at 189.23 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1af355ae-28cb-47c0-b836-26d76c647aa1)
-    )
     (pin "TARGET_A_DISCHARGE" output (at 189.23 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a39d00b0-f6e5-468c-9f9e-f0fc2a71f49d)
@@ -950,6 +946,10 @@
     (pin "RAM{HyperRAM}" bidirectional (at 189.23 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid de652a57-3cd4-41c6-a618-0b96e2a6b59b)
+    )
+    (pin "TARGET_C_VBUS_EN" output (at 189.23 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ec0de58b-1ffb-4236-a560-a1e4b3aad89b)
     )
     (instances
       (project "cynthion"
@@ -976,10 +976,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5bb342fd-8e25-41e6-a909-48141bfb7d22)
     )
-    (pin "~{TARGET_C_VBUS_EN}" input (at 210.82 57.15 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 049fd28b-7a2a-4b52-b7c6-023bc6270b9a)
-    )
     (pin "~{CONTROL_VBUS_IN_EN}" input (at 210.82 41.91 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9ab9d752-5190-4cb2-b818-31fa64dc57cb)
@@ -999,6 +995,10 @@
     (pin "MON{Monitor}" bidirectional (at 243.84 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6f40b126-676c-4263-b036-6e28bafc632b)
+    )
+    (pin "TARGET_C_VBUS_EN" input (at 210.82 57.15 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 39e0dbf7-f2b5-4b1d-8c7e-01f295e67341)
     )
     (instances
       (project "cynthion"

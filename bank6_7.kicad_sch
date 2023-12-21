@@ -1925,7 +1925,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2c8f7502-c651-4adb-9e75-7cccfcc18291)
   )
-  (hierarchical_label "~{TARGET_C_VBUS_EN}" (shape output) (at 68.58 68.58 0) (fields_autoplaced)
+  (hierarchical_label "TARGET_C_VBUS_EN" (shape output) (at 68.58 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 403af15a-96d4-48c0-bb7e-07988a27cdef)
   )
