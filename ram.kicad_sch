@@ -1250,7 +1250,7 @@
   (symbol (lib_id "Device:R") (at 168.91 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2cf8150-1bd0-45be-bfb6-aaceafbc5037)
-    (property "Reference" "R87" (at 170.688 109.6553 0)
+    (property "Reference" "R119" (at 170.688 109.6553 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 170.688 112.1922 0)
@@ -1278,9 +1278,6 @@
     (pin "2" (uuid 660d3aa3-7a54-4406-80cd-01529b8304bc))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/490fda6e-4eae-4b35-a875-405b51914829"
-          (reference "R87") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005de77fe3"
           (reference "R119") (unit 1)
         )

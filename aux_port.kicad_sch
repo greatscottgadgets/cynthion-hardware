@@ -966,9 +966,6 @@
     (pin "2" (uuid 1cbbca13-c75f-4ea7-b3a3-49450d94d3c0))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/490fda6e-4eae-4b35-a875-405b51914829"
-          (reference "D25") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4"
           (reference "D25") (unit 1)
         )
@@ -1120,7 +1117,7 @@
   (symbol (lib_id "Device:Filter_EMI_CommonMode") (at 173.99 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 737036bb-ff14-4686-84ad-8840bb573ba4)
-    (property "Reference" "FL3" (at 173.99 102.87 0)
+    (property "Reference" "FL1" (at 173.99 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Filter_EMI_CommonMode" (at 173.99 105.4069 0)
@@ -1147,15 +1144,6 @@
     (pin "4" (uuid d8114fed-b30e-4997-8644-5028889e4f9e))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772/86be2f0e-7bb1-42d8-87bc-4230c6dbd013"
-          (reference "FL3") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4/6ef06f1e-62a2-438c-8ab4-363586d03e74"
-          (reference "FL1") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111"
-          (reference "FL2") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4"
           (reference "FL1") (unit 1)
         )
@@ -1181,9 +1169,6 @@
     (pin "1" (uuid 1abcb28d-56bb-4e24-9606-0e9e03179383))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/490fda6e-4eae-4b35-a875-405b51914829"
-          (reference "#PWR043") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4"
           (reference "#PWR043") (unit 1)
         )

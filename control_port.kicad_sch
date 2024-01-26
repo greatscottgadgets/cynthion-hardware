@@ -1525,9 +1525,6 @@
     (pin "2" (uuid faf1ace3-60d9-41c0-8ca3-f69ae7f4348e))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/490fda6e-4eae-4b35-a875-405b51914829"
-          (reference "D23") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
           (reference "D23") (unit 1)
         )
@@ -1961,9 +1958,6 @@
     (pin "1" (uuid a86bc6cb-7e15-4250-8937-e50bf0f791ac))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/490fda6e-4eae-4b35-a875-405b51914829"
-          (reference "#PWR025") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
           (reference "#PWR025") (unit 1)
         )
@@ -2001,15 +1995,6 @@
     (pin "4" (uuid 3acc09b2-13c8-4e26-a186-baa641006395))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772/86be2f0e-7bb1-42d8-87bc-4230c6dbd013"
-          (reference "FL3") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4/6ef06f1e-62a2-438c-8ab4-363586d03e74"
-          (reference "FL1") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111"
-          (reference "FL2") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
           (reference "FL3") (unit 1)
         )

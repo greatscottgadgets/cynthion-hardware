@@ -1981,7 +1981,7 @@
   (symbol (lib_id "Device:R") (at 171.45 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 079a1c0c-136e-434c-9981-64f9d45c59db)
-    (property "Reference" "R57" (at 171.45 55.88 90)
+    (property "Reference" "R118" (at 171.45 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 171.45 58.42 90)
@@ -2009,9 +2009,6 @@
     (pin "2" (uuid f5d44522-f356-4ac8-9d56-cb16ec716e8e))
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747"
-          (reference "R57") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
           (reference "R118") (unit 1)
         )
