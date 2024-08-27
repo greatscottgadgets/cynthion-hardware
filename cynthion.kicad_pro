@@ -642,7 +642,10 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2024-08-26",
+    "COPYRIGHT": "Copyright 2019-2024 Great Scott Gadgets",
+    "DATE": "2024-08-27",
+    "LICENSE": "Licensed under the CERN-OHL-P v2",
+    "TITLE": "Cynthion",
     "VERSION": "1.4.0"
   }
 }
