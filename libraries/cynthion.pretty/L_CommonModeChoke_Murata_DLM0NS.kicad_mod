@@ -41,9 +41,9 @@
   (pad "2" smd roundrect (at 0.3 -0.25) (size 0.3 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 3366b443-fda9-4e29-9c48-2aae78be6828))
   (pad "3" smd roundrect (at -0.3 0.25) (size 0.3 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 297c1c5d-a394-42e1-b244-1339238dbff6))
   (pad "4" smd roundrect (at 0.3 0.25) (size 0.3 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp dcbbe039-4db1-48b7-ab41-6e0ef228446e))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Coilcraft_0805USB.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_2x0402.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 0.65 0.6 1))
     (rotate (xyz 0 0 0))
   )
 )
