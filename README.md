@@ -2,6 +2,8 @@
 
 Cynthion is an open source hardware tool for building, testing, monitoring, and experimenting with USB devices. It is the primary platform for the [LUNA](https://github.com/greatscottgadgets/luna) USB gateware library based on [Amaranth HDL](https://github.com/amaranth-lang/amaranth).
 
+Schematic PDF and fabrication outputs may be found in release archives. See the [Cynthion Documentation](https://cynthion.readthedocs.io/) for additional information.
+
 Cynthion is designed in [KiCad](https://www.kicad.org/), an open source electronic design automation package.
 
 ## Related Projects
