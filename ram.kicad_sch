@@ -845,7 +845,7 @@
     (property "Part Number" "W956A8MBYA6I" (at 137.16 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Substitution" "W956A8MBYA5I" (at 137.16 102.87 0)
+    (property "Substitution" "W956A8MBYA5I, Infineon S27KL0642DPBHI020" (at 137.16 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A2" (uuid d56d4612-7b43-4e5e-8bf6-62449c6e6c99))
