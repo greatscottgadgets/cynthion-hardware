@@ -63,6 +63,7 @@
         "courtyards_overlap|107972313|69250001|00000000-0000-0000-0000-00005ff50a4b|97020680-52fd-41ee-a656-0dc60c3ba581",
         "courtyards_overlap|115380001|85380001|00000000-0000-0000-0000-00005fed7822|7b2d556a-2043-41fe-8056-a8543e5d5cfd",
         "courtyards_overlap|149225001|83400001|00000000-0000-0000-0000-00005fe26531|fa7984aa-864b-40a5-ad67-90b400a2f166",
+        "courtyards_overlap|149225001|84900001|00000000-0000-0000-0000-00005fe26531|3842de83-1318-4295-a95d-5d1baad380e8",
         "courtyards_overlap|157972313|69250001|00000000-0000-0000-0000-00005ff4fe57|ebc18994-eb08-4733-b42c-324e62b55257",
         "lib_footprint_mismatch|133700000|111100000|00000000-0000-0000-0000-00005fdfc759|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|140000000|75500000|00000000-0000-0000-0000-00005fdfc3f1|00000000-0000-0000-0000-000000000000",
@@ -130,7 +131,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.09999999999999999,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.24,
@@ -138,11 +139,11 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.049999999999999996,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.127,
+        "min_track_width": 0.09999999999999999,
         "min_via_annular_width": 0.125,
         "min_via_diameter": 0.41,
         "solder_mask_to_copper_clearance": 0.0,
@@ -190,6 +191,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.127,
         0.1524,
         0.2032,
@@ -231,14 +233,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1739900|1003300|5610ec9c-f62c-49f9-80c2-a63776d16395|5610ec9c-f62c-49f9-80c2-a63776d16395|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772/86be2f0e-7bb1-42d8-87bc-4230c6dbd013|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772/86be2f0e-7bb1-42d8-87bc-4230c6dbd013|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4/6ef06f1e-62a2-438c-8ab4-363586d03e74",
-      "pin_to_pin|1739900|1003300|5610ec9c-f62c-49f9-80c2-a63776d16395|5610ec9c-f62c-49f9-80c2-a63776d16395|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772/86be2f0e-7bb1-42d8-87bc-4230c6dbd013",
-      "pin_to_pin|1739900|1003300|5610ec9c-f62c-49f9-80c2-a63776d16395|5610ec9c-f62c-49f9-80c2-a63776d16395|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4/6ef06f1e-62a2-438c-8ab4-363586d03e74",
-      "pin_to_pin|558800|965200|4f4b30da-2381-4c1f-a83f-53ec32505617|5610ec9c-f62c-49f9-80c2-a63776d16395|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772/86be2f0e-7bb1-42d8-87bc-4230c6dbd013",
-      "pin_to_pin|558800|965200|4f4b30da-2381-4c1f-a83f-53ec32505617|5610ec9c-f62c-49f9-80c2-a63776d16395|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dd754d4/6ef06f1e-62a2-438c-8ab4-363586d03e74",
-      "pin_to_pin|558800|965200|4f4b30da-2381-4c1f-a83f-53ec32505617|5610ec9c-f62c-49f9-80c2-a63776d16395|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4|/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dddb747/6fe66c21-f87e-45b5-9c98-390633af1111"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -474,6 +469,23 @@
         "via_diameter": 0.4572,
         "via_drill": 0.2032,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
+        "name": "Thin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -481,7 +493,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Thin",
+        "pattern": "*TARGET PHY/PHY_D*"
+      },
+      {
+        "netclass": "Thin",
+        "pattern": "*TARGET_A_D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -544,48 +565,28 @@
       ""
     ],
     [
-      "88637316-1688-4ac4-b530-3f2433cec3c1",
-      "FPGA Banks 2 and 3"
+      "00000000-0000-0000-0000-00005dcd9772",
+      "CONTROL Port"
+    ],
+    [
+      "86be2f0e-7bb1-42d8-87bc-4230c6dbd013",
+      "CONTROL PHY"
     ],
     [
       "00000000-0000-0000-0000-00005dd754d4",
       "AUX Port"
     ],
     [
-      "00000000-0000-0000-0000-00005dddb747",
-      "TARGET Port"
-    ],
-    [
-      "00000000-0000-0000-0000-00005dcaa6d2",
-      "Debugger"
-    ],
-    [
-      "00000000-0000-0000-0000-00005dcd9772",
-      "CONTROL Port"
-    ],
-    [
-      "398ed715-d319-4823-8f52-c02f43302105",
-      "FPGA Banks 6 and 7"
-    ],
-    [
-      "00000000-0000-0000-0000-00005da7baf4",
-      "Power Supplies"
-    ],
-    [
-      "00000000-0000-0000-0000-00005de77fe3",
-      "RAM"
-    ],
-    [
-      "490fda6e-4eae-4b35-a875-405b51914829",
-      "Power Distribution and Monitoring"
-    ],
-    [
       "6ef06f1e-62a2-438c-8ab4-363586d03e74",
       "AUX PHY"
     ],
     [
-      "86be2f0e-7bb1-42d8-87bc-4230c6dbd013",
-      "CONTROL PHY"
+      "821a7ccd-e154-4207-89e2-0af03a062d97",
+      "AUX Type C Controller"
+    ],
+    [
+      "00000000-0000-0000-0000-00005dddb747",
+      "TARGET Port"
     ],
     [
       "6fe66c21-f87e-45b5-9c98-390633af1111",
@@ -596,24 +597,44 @@
       "TARGET Type C Controller"
     ],
     [
-      "821a7ccd-e154-4207-89e2-0af03a062d97",
-      "AUX Type C Controller"
+      "d6473fd6-7fca-4f4e-a434-76243f5aa389",
+      "FPGA Banks 0 and 1"
     ],
     [
-      "90959d77-de16-430a-a341-d55720164855",
-      "Expansion Interfaces"
+      "88637316-1688-4ac4-b530-3f2433cec3c1",
+      "FPGA Banks 2 and 3"
+    ],
+    [
+      "398ed715-d319-4823-8f52-c02f43302105",
+      "FPGA Banks 6 and 7"
+    ],
+    [
+      "f93ff067-5e9f-4565-b018-6e1ef186681c",
+      "FPGA Bank 8 and Configuration Flash"
+    ],
+    [
+      "00000000-0000-0000-0000-00005de77fe3",
+      "RAM"
     ],
     [
       "c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17",
       "LEDs and Buttons"
     ],
     [
-      "d6473fd6-7fca-4f4e-a434-76243f5aa389",
-      "FPGA Banks 0 and 1"
+      "90959d77-de16-430a-a341-d55720164855",
+      "Expansion Interfaces"
     ],
     [
-      "f93ff067-5e9f-4565-b018-6e1ef186681c",
-      "FPGA Bank 8 and Configuration Flash"
+      "00000000-0000-0000-0000-00005dcaa6d2",
+      "Debugger"
+    ],
+    [
+      "00000000-0000-0000-0000-00005da7baf4",
+      "Power Supplies"
+    ],
+    [
+      "490fda6e-4eae-4b35-a875-405b51914829",
+      "Power Distribution and Monitoring"
     ],
     [
       "07741d92-cb3b-401f-9c7e-29f688af7269",
@@ -621,7 +642,7 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-11-11",
-    "VERSION": "1.3.1"
+    "DATE": "2024-08-26",
+    "VERSION": "1.4.0"
   }
 }

@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Cynthion")
+    (date "${DATE}")
+    (rev "${VERSION}")
+    (company "Copyright 2019-2023 Great Scott Gadgets")
+    (comment 1 "Licensed under the CERN-OHL-P v2")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
@@ -1539,13 +1547,13 @@
   )
 
   (symbol (lib_id "Device:R") (at 83.82 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a35d0d6c-e59a-43f7-802e-18367f809d3b)
-    (property "Reference" "R39" (at 86.36 83.82 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "R39" (at 86.36 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 83.82 83.82 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "10k" (at 86.36 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 82.042 83.82 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -1565,8 +1573,8 @@
     (property "Manufacturer" "Yageo" (at 83.82 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DNP" "DNP" (at 88.265 83.82 90)
-      (effects (font (size 1.27 1.27)))
+    (property "DNP" "DNP" (at 86.36 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid 4b447290-2cd2-4f58-8632-f290cd4d65b7))
     (pin "2" (uuid 73aad2af-5e97-452e-99d1-f583d16d1ef2))

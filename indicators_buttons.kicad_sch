@@ -653,7 +653,7 @@
     (stroke (width 0) (type default))
     (uuid 513290eb-882e-470b-a0a3-947212f8eaea)
   )
-  (polyline (pts (xy 12.7 96.52) (xy 284.48 95.25))
+  (polyline (pts (xy 12.7 96.52) (xy 284.48 96.52))
     (stroke (width 0) (type default))
     (uuid 59c6c184-6e83-4160-9fd3-427b9702939d)
   )

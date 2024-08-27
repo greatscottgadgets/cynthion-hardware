@@ -710,7 +710,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "8"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "18"))
       )
     )
   )
@@ -767,7 +767,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "5"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "17"))
       )
     )
   )
@@ -804,7 +804,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "6"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "2"))
       )
     )
   )
@@ -829,7 +829,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "3"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "4"))
       )
     )
   )
@@ -862,7 +862,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "4"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "7"))
       )
     )
   )
@@ -883,7 +883,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "9"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "14"))
       )
     )
   )
@@ -927,10 +927,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2ac86919-d592-4dfb-b368-bd64cd496f84)
     )
-    (pin "~{TARGET_C_VBUS_EN}" output (at 189.23 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 1af355ae-28cb-47c0-b836-26d76c647aa1)
-    )
     (pin "TARGET_A_DISCHARGE" output (at 189.23 59.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a39d00b0-f6e5-468c-9f9e-f0fc2a71f49d)
@@ -951,9 +947,13 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid de652a57-3cd4-41c6-a618-0b96e2a6b59b)
     )
+    (pin "TARGET_C_VBUS_EN" output (at 189.23 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ec0de58b-1ffb-4236-a560-a1e4b3aad89b)
+    )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "7"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "12"))
       )
     )
   )
@@ -976,10 +976,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5bb342fd-8e25-41e6-a909-48141bfb7d22)
     )
-    (pin "~{TARGET_C_VBUS_EN}" input (at 210.82 57.15 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 049fd28b-7a2a-4b52-b7c6-023bc6270b9a)
-    )
     (pin "~{CONTROL_VBUS_IN_EN}" input (at 210.82 41.91 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9ab9d752-5190-4cb2-b818-31fa64dc57cb)
@@ -1000,9 +996,13 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6f40b126-676c-4263-b036-6e28bafc632b)
     )
+    (pin "TARGET_C_VBUS_EN" input (at 210.82 57.15 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 39e0dbf7-f2b5-4b1d-8c7e-01f295e67341)
+    )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "10"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "19"))
       )
     )
   )
@@ -1055,7 +1055,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "2"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "11"))
       )
     )
   )
@@ -1070,17 +1070,17 @@
     (property "Sheetfile" "expansion.kicad_sch" (at 151.13 149.1746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "PMOD_B[0..7]" bidirectional (at 179.07 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid ae390421-7959-419d-b756-2839ed8ff0aa)
-    )
-    (pin "PMOD_A[0..7]" bidirectional (at 179.07 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 2fb8b69b-9aac-4ef8-8dbf-9ae9f5eb5d4e)
-    )
     (pin "MEZZANINE[1..30]" bidirectional (at 151.13 144.78 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5a6213ad-0772-4247-94a7-bb2570095f01)
+    )
+    (pin "PMOD_A[1..10]" bidirectional (at 179.07 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 063e0eaf-77c0-4bd7-bfe3-74aaab161bf6)
+    )
+    (pin "PMOD_B[1..10]" bidirectional (at 179.07 139.7 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4b8015d6-b34b-411a-b2dd-c3f96302b878)
     )
     (instances
       (project "cynthion"
@@ -1121,7 +1121,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "17"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "15"))
       )
     )
   )
@@ -1135,10 +1135,6 @@
     )
     (property "Sheetfile" "bank0_1.kicad_sch" (at 151.13 123.7746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "PMOD_B[0..7]" bidirectional (at 189.23 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 86c97305-b4cb-4157-b96e-b0976c4aa832)
     )
     (pin "TARGET_C{Type_C}" bidirectional (at 189.23 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1156,17 +1152,21 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a23f6a84-ad49-4ab1-9d77-2901f655cf40)
     )
-    (pin "PMOD_A[0..7]" bidirectional (at 189.23 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 64ae7c43-56f5-4b44-8986-48da5349d6cd)
-    )
     (pin "MON{Monitor}" bidirectional (at 189.23 107.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 09eb1b41-ee96-47e2-84df-cb415761987a)
     )
+    (pin "PMOD_A[1..10]" bidirectional (at 189.23 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 91bbb5d9-d2a4-445b-bc25-1baac89b3997)
+    )
+    (pin "PMOD_B[1..10]" bidirectional (at 189.23 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a3b6abd0-405a-4253-b5a9-a476d4fed315)
+    )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "18"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "10"))
       )
     )
   )
@@ -1199,7 +1199,7 @@
     )
     (instances
       (project "cynthion"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "19"))
+        (path "/fb621148-8145-4217-9712-738e1b5a4823" (page "13"))
       )
     )
   )
